@@ -14,7 +14,6 @@ import java.util.*;
 @Service
 public class WorkingDirectoryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WorkingDirectoryService.class);
 
 
     // The initial working directory (set at startup)

@@ -35,7 +35,6 @@ import java.util.concurrent.Callable;
 )
 public class MainCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MainCommand.class);
 
 
     @Parameters(

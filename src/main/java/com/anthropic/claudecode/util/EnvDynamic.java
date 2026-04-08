@@ -12,7 +12,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Slf4j
 public class EnvDynamic {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(EnvDynamic.class);
 
 
     private static volatile Boolean isDockerCached;

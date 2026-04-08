@@ -21,7 +21,6 @@ import java.util.function.*;
 @Service
 public class UltraplanService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(UltraplanService.class);
 
 
     /** Polling interval between remote session event fetches. */

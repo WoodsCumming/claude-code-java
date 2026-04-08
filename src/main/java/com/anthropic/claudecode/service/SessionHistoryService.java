@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class SessionHistoryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionHistoryService.class);
 
 
     public static final int HISTORY_PAGE_SIZE = 100;

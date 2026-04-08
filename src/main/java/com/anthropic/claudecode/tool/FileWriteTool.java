@@ -22,7 +22,6 @@ import lombok.Data;
 @Component
 public class FileWriteTool extends AbstractTool<FileWriteTool.Input, FileWriteTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileWriteTool.class);
 
 
     public static final String TOOL_NAME = "Write";

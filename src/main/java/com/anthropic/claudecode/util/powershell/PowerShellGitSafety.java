@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class PowerShellGitSafety {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PowerShellGitSafety.class);
 
 
     /**

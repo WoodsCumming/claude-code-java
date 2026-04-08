@@ -28,7 +28,6 @@ import java.util.*;
 @Service
 public class CollapseTeammateShutdownsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CollapseTeammateShutdownsService.class);
 
 
     /**

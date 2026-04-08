@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class RemoteSessionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RemoteSessionService.class);
 
 
     private final AppState appState;

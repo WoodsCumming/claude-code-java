@@ -20,7 +20,6 @@ import java.util.function.Consumer;
 @Component
 public class SyntheticOutputTool extends AbstractTool<Map<String, Object>, String> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SyntheticOutputTool.class);
 
 
     public static final String SYNTHETIC_OUTPUT_TOOL_NAME = "StructuredOutput";

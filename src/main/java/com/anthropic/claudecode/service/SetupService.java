@@ -26,7 +26,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class SetupService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SetupService.class);
 
 
     private final SessionService sessionService;

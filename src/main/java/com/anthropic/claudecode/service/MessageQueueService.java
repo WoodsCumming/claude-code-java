@@ -21,7 +21,6 @@ import java.util.function.Predicate;
 @Service
 public class MessageQueueService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MessageQueueService.class);
 
 
     // =========================================================================
@@ -411,41 +410,49 @@ public class MessageQueueService {
     // =========================================================================
 
     /** @deprecated Use subscribeToCommandQueue */
+    @Deprecated
     public Runnable subscribeToPendingNotifications(Runnable listener) {
         return subscribeToCommandQueue(listener);
     }
 
     /** @deprecated Use getCommandQueueSnapshot */
+    @Deprecated
     public List<QueuedCommand> getPendingNotificationsSnapshot() {
         return getCommandQueueSnapshot();
     }
 
     /** @deprecated Use hasCommandsInQueue */
+    @Deprecated
     public boolean hasPendingNotifications() {
         return hasCommandsInQueue();
     }
 
     /** @deprecated Use getCommandQueueLength */
+    @Deprecated
     public int getPendingNotificationsCount() {
         return getCommandQueueLength();
     }
 
     /** @deprecated Use recheckCommandQueue */
+    @Deprecated
     public void recheckPendingNotifications() {
         recheckCommandQueue();
     }
 
     /** @deprecated Use dequeue */
+    @Deprecated
     public Optional<QueuedCommand> dequeuePendingNotification() {
         return dequeue();
     }
 
     /** @deprecated Use resetCommandQueue */
+    @Deprecated
     public void resetPendingNotifications() {
         resetCommandQueue();
     }
 
     /** @deprecated Use clearCommandQueue */
+    @Deprecated
     public void clearPendingNotifications() {
         clearCommandQueue();
     }

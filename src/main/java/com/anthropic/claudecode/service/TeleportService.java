@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class TeleportService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeleportService.class);
 
 
     // Retry configuration — mirrors TELEPORT_RETRY_DELAYS in api.ts

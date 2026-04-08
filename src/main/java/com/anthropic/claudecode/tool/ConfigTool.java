@@ -20,7 +20,6 @@ import java.util.function.Consumer;
 @Component
 public class ConfigTool extends AbstractTool<ConfigTool.Input, ConfigTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ConfigTool.class);
 
     public static final String TOOL_NAME = "Config";
 

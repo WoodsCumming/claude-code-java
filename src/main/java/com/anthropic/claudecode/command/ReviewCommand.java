@@ -43,7 +43,6 @@ import java.util.concurrent.Callable;
 )
 public class ReviewCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReviewCommand.class);
 
 
     /**

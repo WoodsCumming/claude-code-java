@@ -20,7 +20,6 @@ import lombok.Data;
 @Component
 public class WebFetchTool extends AbstractTool<WebFetchTool.Input, WebFetchTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WebFetchTool.class);
 
 
     public static final String TOOL_NAME = "WebFetch";

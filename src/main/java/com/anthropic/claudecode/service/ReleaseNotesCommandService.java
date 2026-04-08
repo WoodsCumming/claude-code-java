@@ -22,7 +22,6 @@ import java.util.stream.Collectors;
 @Service
 public class ReleaseNotesCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReleaseNotesCommandService.class);
 
 
     private final ReleaseNotesService releaseNotesService;

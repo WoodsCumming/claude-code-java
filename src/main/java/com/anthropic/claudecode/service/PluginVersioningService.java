@@ -16,7 +16,6 @@ import java.util.*;
 @Service
 public class PluginVersioningService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginVersioningService.class);
 
 
     /**

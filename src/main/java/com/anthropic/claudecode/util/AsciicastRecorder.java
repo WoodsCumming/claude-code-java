@@ -15,7 +15,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Slf4j
 public class AsciicastRecorder {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AsciicastRecorder.class);
 
 
     private static final AtomicReference<String> recordFilePath = new AtomicReference<>();

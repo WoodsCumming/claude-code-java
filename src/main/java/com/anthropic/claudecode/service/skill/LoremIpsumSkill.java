@@ -20,7 +20,6 @@ import java.util.concurrent.ThreadLocalRandom;
 @Service
 public class LoremIpsumSkill {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LoremIpsumSkill.class);
 
 
     // -------------------------------------------------------------------------

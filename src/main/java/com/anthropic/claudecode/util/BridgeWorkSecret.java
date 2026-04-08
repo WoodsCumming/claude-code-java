@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Component
 public class BridgeWorkSecret {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeWorkSecret.class);
 
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

@@ -30,7 +30,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public final class CronTasksLock {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronTasksLock.class);
 
     private static final String LOCK_FILE_REL = ".claude/scheduled_tasks.lock";
 

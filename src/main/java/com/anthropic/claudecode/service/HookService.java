@@ -18,7 +18,6 @@ import java.util.concurrent.*;
 @Slf4j
 @Service
 public class HookService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HookService.class);
 
     public enum HookEvent {
         PRE_TOOL_USE("PreToolUse"),

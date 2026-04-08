@@ -25,7 +25,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class ToolHookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ToolHookService.class);
 
 
     private final HookService hookService;

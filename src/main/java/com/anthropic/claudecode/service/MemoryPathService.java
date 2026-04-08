@@ -20,7 +20,6 @@ import java.nio.file.Path;
 @Service
 public class MemoryPathService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemoryPathService.class);
 
 
     /** Directory name used under ~/.claude/ for automatic memories. */

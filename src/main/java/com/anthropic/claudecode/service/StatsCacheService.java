@@ -32,7 +32,6 @@ import java.util.concurrent.locks.ReentrantLock;
 @Service
 public class StatsCacheService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(StatsCacheService.class);
 
 
     public static final int STATS_CACHE_VERSION = 3;

@@ -24,7 +24,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Slf4j
 public class LogUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LogUtils.class);
 
 
     // =========================================================================

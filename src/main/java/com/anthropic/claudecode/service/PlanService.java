@@ -27,7 +27,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class PlanService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PlanService.class);
 
 
     private static final int MAX_SLUG_RETRIES = 10;

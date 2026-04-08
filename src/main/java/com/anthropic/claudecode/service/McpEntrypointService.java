@@ -25,7 +25,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpEntrypointService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpEntrypointService.class);
 
 
     /** Size of the LRU readFileState cache (mirrors READ_FILE_STATE_CACHE_SIZE = 100). */

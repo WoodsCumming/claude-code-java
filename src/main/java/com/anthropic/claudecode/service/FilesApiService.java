@@ -28,7 +28,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Slf4j
 @Service
 public class FilesApiService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FilesApiService.class);
 
     // Files API is currently in beta.
     private static final String FILES_API_BETA_HEADER = "files-api-2025-04-14,oauth-2025-04-20";

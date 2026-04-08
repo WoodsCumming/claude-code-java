@@ -60,6 +60,7 @@ public abstract sealed class ContentBlock permits
     // =========================================================================
     // ThinkingBlock
     // =========================================================================
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor
@@ -81,6 +82,7 @@ public abstract sealed class ContentBlock permits
     // =========================================================================
     // RedactedThinkingBlock
     // =========================================================================
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor
@@ -188,6 +190,7 @@ public abstract sealed class ContentBlock permits
     // =========================================================================
     // ImageBlock
     // =========================================================================
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor
@@ -224,6 +227,7 @@ public abstract sealed class ContentBlock permits
     // =========================================================================
     // DocumentBlock
     // =========================================================================
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor

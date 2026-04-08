@@ -20,7 +20,6 @@ import java.util.function.Supplier;
 @Slf4j
 public final class LogoV2Utils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LogoV2Utils.class);
 
 
     // =========================================================================

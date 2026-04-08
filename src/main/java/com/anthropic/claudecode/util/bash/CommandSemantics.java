@@ -19,7 +19,6 @@ import java.util.function.Function;
 @Slf4j
 public final class CommandSemantics {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CommandSemantics.class);
 
 
     /**

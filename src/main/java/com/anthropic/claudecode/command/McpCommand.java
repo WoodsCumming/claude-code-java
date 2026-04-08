@@ -22,7 +22,6 @@ import java.util.concurrent.Callable;
 )
 public class McpCommand implements Runnable {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpCommand.class);
 
 
     @Override

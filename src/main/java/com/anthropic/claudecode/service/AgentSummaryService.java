@@ -23,7 +23,6 @@ import java.util.function.Consumer;
 @Slf4j
 @Service
 public class AgentSummaryService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentSummaryService.class);
 
     private static final long SUMMARY_INTERVAL_MS = 30_000L;
 

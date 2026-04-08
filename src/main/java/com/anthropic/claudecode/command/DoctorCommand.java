@@ -21,7 +21,6 @@ import java.util.concurrent.Callable;
 )
 public class DoctorCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DoctorCommand.class);
 
 
     private final ClaudeCodeConfig config;

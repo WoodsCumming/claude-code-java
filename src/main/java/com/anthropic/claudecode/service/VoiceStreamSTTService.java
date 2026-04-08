@@ -28,7 +28,6 @@ import java.util.function.Consumer;
 @Service
 public class VoiceStreamSTTService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(VoiceStreamSTTService.class);
 
 
     // ── Constants ─────────────────────────────────────────────────────────────

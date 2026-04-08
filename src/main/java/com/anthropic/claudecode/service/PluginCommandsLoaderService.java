@@ -21,7 +21,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class PluginCommandsLoaderService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginCommandsLoaderService.class);
 
 
     private final MarkdownConfigLoader markdownConfigLoader;

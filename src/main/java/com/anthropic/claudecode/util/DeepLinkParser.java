@@ -20,7 +20,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class DeepLinkParser {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DeepLinkParser.class);
 
 
     public static final String DEEP_LINK_PROTOCOL = "claude-cli";

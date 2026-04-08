@@ -35,7 +35,6 @@ import java.util.concurrent.Callable;
 )
 public class MemoryCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemoryCommand.class);
 
 
     /** Optional path override – open a specific memory file directly. */

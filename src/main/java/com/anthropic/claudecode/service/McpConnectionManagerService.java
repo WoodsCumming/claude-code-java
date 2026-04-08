@@ -25,7 +25,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class McpConnectionManagerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpConnectionManagerService.class);
 
 
     // Constants for reconnection with exponential backoff

@@ -17,7 +17,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class MarkdownUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MarkdownUtils.class);
 
 
     private static final String EOL = "\n";

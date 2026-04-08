@@ -23,7 +23,6 @@ import java.util.function.Consumer;
 @Service
 public class GrowthBookService implements BridgeTrustedDeviceService.GrowthBookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GrowthBookService.class);
 
 
     // -------------------------------------------------------------------------

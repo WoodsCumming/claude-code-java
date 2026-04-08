@@ -19,7 +19,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class MemdirPaths {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemdirPaths.class);
 
 
     private static final String AUTO_MEM_DIRNAME = "memory";

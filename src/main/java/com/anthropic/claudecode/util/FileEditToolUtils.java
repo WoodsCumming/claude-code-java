@@ -21,7 +21,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class FileEditToolUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileEditToolUtils.class);
 
 
     // Claude can't output curly quotes, so we define them as constants here.

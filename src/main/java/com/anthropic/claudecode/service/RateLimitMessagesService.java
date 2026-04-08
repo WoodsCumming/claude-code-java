@@ -16,7 +16,6 @@ import java.util.List;
 @Service
 public class RateLimitMessagesService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RateLimitMessagesService.class);
 
 
     private static final String FEEDBACK_CHANNEL_ANT = "#briarpatch-cc";

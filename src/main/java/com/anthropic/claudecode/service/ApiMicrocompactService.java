@@ -22,7 +22,6 @@ import java.util.Optional;
 @Service
 public class ApiMicrocompactService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ApiMicrocompactService.class);
 
 
     // Default values for context management strategies.

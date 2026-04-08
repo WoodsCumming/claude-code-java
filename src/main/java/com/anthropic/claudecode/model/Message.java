@@ -388,6 +388,7 @@ public sealed interface Message permits
     @Data
     @lombok.Builder
     final class ProgressMessage implements Message {
+        @Builder.Default
         private String type = "progress";
         private String uuid;
         private String timestamp;
@@ -407,6 +408,7 @@ public sealed interface Message permits
     @lombok.AllArgsConstructor
     @lombok.Builder
     final class AttachmentMessage implements Message {
+        @Builder.Default
         private String type = "attachment";
         private String uuid;
         private String timestamp;
@@ -434,6 +436,7 @@ public sealed interface Message permits
     @Data
     @lombok.Builder
     final class TombstoneMessage implements Message {
+        @Builder.Default
         private String type = "tombstone";
         private String uuid;
         private String timestamp;
@@ -450,6 +453,7 @@ public sealed interface Message permits
     @Data
     @lombok.Builder
     final class ToolUseSummaryMessage implements Message {
+        @Builder.Default
         private String type = "tool_use_summary";
         private String uuid;
         private String timestamp;

@@ -34,7 +34,6 @@ import java.util.function.Supplier;
 @Service
 public class RemoteIoService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RemoteIoService.class);
 
 
     private static final ObjectMapper objectMapper = new ObjectMapper();

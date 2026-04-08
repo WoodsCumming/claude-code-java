@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class InstallSlackAppService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InstallSlackAppService.class);
 
 
     private static final String SLACK_APP_URL = "https://slack.com/marketplace/A08SF47R6P4-claude";

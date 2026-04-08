@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class BtwCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BtwCommandService.class);
 
 
     /** Command name. Translated from: name: 'btw' in index.ts */

@@ -27,7 +27,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class LspPluginIntegrationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspPluginIntegrationService.class);
 
 
     private final ObjectMapper objectMapper;
@@ -69,6 +68,7 @@ public class LspPluginIntegrationService {
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor
+    @lombok.EqualsAndHashCode(callSuper = false)
     public static class ScopedLspServerConfig extends LspServerConfig {
         private String scope;   // "dynamic" for plugin servers
         private String source;  // plugin name

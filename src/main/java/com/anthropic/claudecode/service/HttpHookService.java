@@ -19,7 +19,6 @@ import java.util.concurrent.*;
 @Service
 public class HttpHookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HttpHookService.class);
 
 
     private static final long DEFAULT_HTTP_HOOK_TIMEOUT_MS = 10 * 60 * 1000L; // 10 minutes

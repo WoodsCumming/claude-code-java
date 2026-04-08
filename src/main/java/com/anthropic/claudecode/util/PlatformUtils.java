@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @Component
 public class PlatformUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PlatformUtils.class);
 
 
     // ── Platform enum ─────────────────────────────────────────────────────────

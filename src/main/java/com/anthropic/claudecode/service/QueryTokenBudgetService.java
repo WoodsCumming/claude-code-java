@@ -19,7 +19,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class QueryTokenBudgetService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(QueryTokenBudgetService.class);
 
 
     /** Token usage threshold at which the turn is considered "complete enough" to stop. */

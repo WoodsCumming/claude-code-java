@@ -32,7 +32,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class PaneBackendExecutorService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PaneBackendExecutorService.class);
 
 
     /**

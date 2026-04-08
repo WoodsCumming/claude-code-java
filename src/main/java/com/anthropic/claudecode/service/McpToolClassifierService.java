@@ -22,7 +22,6 @@ import java.util.regex.Pattern;
 @Service
 public class McpToolClassifierService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpToolClassifierService.class);
 
 
     // ---------------------------------------------------------------------------

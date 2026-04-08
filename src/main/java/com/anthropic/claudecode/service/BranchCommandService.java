@@ -20,7 +20,6 @@ import java.util.List;
 @Service
 public class BranchCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BranchCommandService.class);
 
 
     /** Command name. Translated from: name: 'branch' in index.ts */

@@ -35,7 +35,6 @@ import java.util.concurrent.Callable;
 )
 public class PluginCommand implements Runnable {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginCommand.class);
 
 
     @Override

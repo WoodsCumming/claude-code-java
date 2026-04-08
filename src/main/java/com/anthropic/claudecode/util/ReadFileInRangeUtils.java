@@ -35,7 +35,6 @@ import java.util.List;
 @Slf4j
 public class ReadFileInRangeUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReadFileInRangeUtils.class);
 
 
     /** Maximum file size to read into memory in one shot (10 MB). */

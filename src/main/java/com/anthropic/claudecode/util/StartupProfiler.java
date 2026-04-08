@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class StartupProfiler {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(StartupProfiler.class);
 
 
     private static final boolean DETAILED_PROFILING =

@@ -15,7 +15,6 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class GhAuthStatus {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GhAuthStatus.class);
 
 
     private static final long GH_TIMEOUT_MS = 5000;

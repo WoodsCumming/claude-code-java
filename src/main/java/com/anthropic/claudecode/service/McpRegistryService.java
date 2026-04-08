@@ -31,7 +31,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpRegistryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpRegistryService.class);
 
 
     private static final String REGISTRY_URL =

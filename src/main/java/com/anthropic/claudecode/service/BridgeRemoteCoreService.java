@@ -40,7 +40,6 @@ import java.util.function.Supplier;
 @Service
 public class BridgeRemoteCoreService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeRemoteCoreService.class);
 
 
     private static final String ANTHROPIC_VERSION = "2023-06-01";

@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Component
 public class WebFetchUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WebFetchUtils.class);
 
 
     // PSR-mandated URL length cap

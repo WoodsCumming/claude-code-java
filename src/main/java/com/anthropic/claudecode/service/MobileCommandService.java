@@ -16,7 +16,6 @@ import java.util.List;
 @Service
 public class MobileCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MobileCommandService.class);
 
 
     // -------------------------------------------------------------------------

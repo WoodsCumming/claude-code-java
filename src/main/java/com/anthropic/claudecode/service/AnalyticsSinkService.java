@@ -34,7 +34,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Service
 public class AnalyticsSinkService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AnalyticsSinkService.class);
 
 
     private static final String DATADOG_GATE_NAME = "tengu_log_datadog_events";

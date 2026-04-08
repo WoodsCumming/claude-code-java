@@ -12,7 +12,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Slf4j
 public class GitAvailability {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GitAvailability.class);
 
 
     private static final AtomicReference<Boolean> cachedGitAvailable = new AtomicReference<>(null);

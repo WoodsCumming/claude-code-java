@@ -21,7 +21,6 @@ import java.util.stream.Stream;
 @Service
 public class MarkdownConfigLoaderService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MarkdownConfigLoaderService.class);
 
 
     // -------------------------------------------------------------------------

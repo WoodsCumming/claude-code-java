@@ -37,7 +37,6 @@ import java.util.stream.Collectors;
 @Service
 public class BridgeInboundAttachmentsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeInboundAttachmentsService.class);
 
 
     private static final Duration DOWNLOAD_TIMEOUT = Duration.ofSeconds(30);

@@ -23,7 +23,6 @@ import java.util.stream.Stream;
 @Service
 public class MemoryScanService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemoryScanService.class);
 
 
     private static final int MAX_MEMORY_FILES = 200;

@@ -25,7 +25,6 @@ import java.util.function.Supplier;
 @Service
 public class QueryDepsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(QueryDepsService.class);
 
 
     private final ClaudeApiService claudeApiService;

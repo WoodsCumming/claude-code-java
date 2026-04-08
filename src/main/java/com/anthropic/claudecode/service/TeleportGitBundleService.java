@@ -29,7 +29,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class TeleportGitBundleService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeleportGitBundleService.class);
 
 
     // Tunable via feature flag (tengu_ccr_bundle_max_bytes)

@@ -18,7 +18,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class UpstreamProxyService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(UpstreamProxyService.class);
 
 
     private static final String SESSION_TOKEN_PATH = "/run/ccr/session_token";

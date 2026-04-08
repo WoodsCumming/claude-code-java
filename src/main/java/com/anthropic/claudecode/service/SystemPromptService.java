@@ -23,7 +23,6 @@ import java.util.List;
 @Service
 public class SystemPromptService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SystemPromptService.class);
 
 
     private final BootstrapStateService bootstrapStateService;

@@ -17,7 +17,6 @@ import java.util.regex.*;
 @Service
 public class CollapseNotificationsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CollapseNotificationsService.class);
 
 
     private static final Pattern STATUS_TAG_PATTERN = Pattern.compile("<status>([^<]*)</status>");

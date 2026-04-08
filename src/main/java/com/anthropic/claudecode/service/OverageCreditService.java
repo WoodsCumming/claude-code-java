@@ -21,7 +21,6 @@ import lombok.Data;
 @Service
 public class OverageCreditService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OverageCreditService.class);
 
 
     private static final long CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour

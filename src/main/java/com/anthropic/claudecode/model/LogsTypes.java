@@ -310,6 +310,7 @@ public class LogsTypes {
     /**
      * A fully-resolved transcript message (SerializedMessage + transcript fields).
      */
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor
     @lombok.AllArgsConstructor

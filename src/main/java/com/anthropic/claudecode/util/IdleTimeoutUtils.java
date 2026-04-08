@@ -14,7 +14,6 @@ import java.util.function.BooleanSupplier;
 @Slf4j
 public class IdleTimeoutUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(IdleTimeoutUtils.class);
 
 
     private IdleTimeoutUtils() {}

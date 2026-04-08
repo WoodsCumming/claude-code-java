@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PluginInstallCountsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginInstallCountsService.class);
 
 
     private static final long CACHE_TTL_MS = 24 * 60 * 60 * 1000L;

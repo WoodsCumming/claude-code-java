@@ -18,7 +18,6 @@ import java.util.function.Consumer;
 @Component
 public class CronCreateTool extends AbstractTool<CronCreateTool.Input, CronCreateTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronCreateTool.class);
 
 
     public static final String TOOL_NAME = "CronCreate";

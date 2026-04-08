@@ -23,7 +23,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class MemdirService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemdirService.class);
 
 
     public static final String ENTRYPOINT_NAME = "MEMORY.md";

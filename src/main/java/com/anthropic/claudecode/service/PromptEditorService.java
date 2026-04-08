@@ -23,7 +23,6 @@ import java.util.Map;
 @Service
 public class PromptEditorService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptEditorService.class);
 
 
     /** Editor command overrides — mirrors EDITOR_OVERRIDES in promptEditor.ts */

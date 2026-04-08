@@ -24,7 +24,6 @@ import java.util.function.Consumer;
 @Service
 public class DirectConnectSessionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DirectConnectSessionService.class);
 
 
     private final ObjectMapper objectMapper;

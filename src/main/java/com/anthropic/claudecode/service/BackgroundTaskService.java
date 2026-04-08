@@ -16,7 +16,6 @@ import java.util.concurrent.*;
 @Service
 public class BackgroundTaskService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BackgroundTaskService.class);
 
 
     private final Map<String, TaskInfo> tasks = new ConcurrentHashMap<>();

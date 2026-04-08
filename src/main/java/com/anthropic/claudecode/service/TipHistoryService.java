@@ -19,7 +19,6 @@ import java.util.Map;
 @Service
 public class TipHistoryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TipHistoryService.class);
 
 
     private final GlobalConfigService globalConfigService;

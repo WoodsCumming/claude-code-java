@@ -31,7 +31,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class OverageCreditGrantService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OverageCreditGrantService.class);
 
 
     private static final long CACHE_TTL_MS = 60 * 60 * 1_000L; // 1 hour

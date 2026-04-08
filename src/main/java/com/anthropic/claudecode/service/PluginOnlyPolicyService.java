@@ -15,7 +15,6 @@ import java.util.*;
 @Service
 public class PluginOnlyPolicyService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginOnlyPolicyService.class);
 
 
     public static final List<String> CUSTOMIZATION_SURFACES = List.of(

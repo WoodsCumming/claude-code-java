@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class DirectMemberMessageUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DirectMemberMessageUtils.class);
 
 
     // Pattern: "@word-or-hyphen rest-of-input" — the message part spans multiple lines

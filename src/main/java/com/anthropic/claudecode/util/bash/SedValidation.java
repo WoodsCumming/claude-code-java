@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class SedValidation {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SedValidation.class);
 
 
     private static final Pattern SED_START = Pattern.compile("^\\s*sed\\s+");

@@ -17,7 +17,6 @@ import lombok.Data;
 @Service
 public class ShellService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ShellService.class);
 
 
     private static final int MAX_OUTPUT_BYTES = 10 * 1024 * 1024; // 10MB

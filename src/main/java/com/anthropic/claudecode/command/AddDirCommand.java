@@ -21,7 +21,6 @@ import java.util.concurrent.Callable;
 )
 public class AddDirCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AddDirCommand.class);
 
 
     @Parameters(index = "0", description = "Path to add as working directory")

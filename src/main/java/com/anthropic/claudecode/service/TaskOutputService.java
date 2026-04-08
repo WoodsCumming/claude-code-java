@@ -27,7 +27,6 @@ import java.util.function.Consumer;
 @Service
 public class TaskOutputService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskOutputService.class);
 
 
     private static final long DEFAULT_MAX_MEMORY = 8L * 1024 * 1024; // 8MB

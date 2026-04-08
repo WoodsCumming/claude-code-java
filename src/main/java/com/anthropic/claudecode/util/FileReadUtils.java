@@ -15,7 +15,6 @@ import java.util.*;
 @Slf4j
 public class FileReadUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileReadUtils.class);
 
 
     private static final long FAST_PATH_MAX_SIZE = 10 * 1024 * 1024; // 10 MB

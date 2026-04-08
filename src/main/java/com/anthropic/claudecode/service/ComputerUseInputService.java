@@ -14,7 +14,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 @Service
 public class ComputerUseInputService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ComputerUseInputService.class);
 
     /**
      * Check if computer use input is supported.

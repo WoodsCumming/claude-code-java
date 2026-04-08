@@ -26,7 +26,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class BashToolUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BashToolUtils.class);
 
 
     private static final Pattern IMAGE_OUTPUT_PATTERN =

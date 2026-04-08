@@ -15,7 +15,6 @@ import java.util.*;
 @Slf4j
 public class FileReadCache {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileReadCache.class);
 
 
     private static final int MAX_CACHE_SIZE = 1000;

@@ -18,7 +18,6 @@ import java.util.Map;
 @Service
 public class SessionFileAccessHooksService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionFileAccessHooksService.class);
 
     // Tool name constants — mirrors the TypeScript *_TOOL_NAME constants
     public static final String FILE_READ_TOOL_NAME  = "Read";

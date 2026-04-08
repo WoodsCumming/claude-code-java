@@ -17,7 +17,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class FastModeService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FastModeService.class);
 
 
     private final AtomicBoolean fastModeActive = new AtomicBoolean(false);

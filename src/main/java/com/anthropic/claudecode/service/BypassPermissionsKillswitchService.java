@@ -18,7 +18,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class BypassPermissionsKillswitchService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BypassPermissionsKillswitchService.class);
 
 
     private final AtomicBoolean checkRan = new AtomicBoolean(false);

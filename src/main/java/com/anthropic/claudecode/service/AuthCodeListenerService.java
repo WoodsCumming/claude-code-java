@@ -18,7 +18,6 @@ import java.util.concurrent.*;
 @Service
 public class AuthCodeListenerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AuthCodeListenerService.class);
 
 
     private volatile HttpServer server;

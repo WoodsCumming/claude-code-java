@@ -27,7 +27,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PasteStoreService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PasteStoreService.class);
 
 
     private static final String PASTE_STORE_DIR = "paste-cache";

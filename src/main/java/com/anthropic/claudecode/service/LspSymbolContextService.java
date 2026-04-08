@@ -27,7 +27,6 @@ import java.util.regex.Pattern;
 @Service
 public class LspSymbolContextService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspSymbolContextService.class);
 
 
     /**

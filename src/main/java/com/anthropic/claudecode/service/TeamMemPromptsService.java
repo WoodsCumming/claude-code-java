@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class TeamMemPromptsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamMemPromptsService.class);
 
 
     private final MemdirContentService memdirContentService;

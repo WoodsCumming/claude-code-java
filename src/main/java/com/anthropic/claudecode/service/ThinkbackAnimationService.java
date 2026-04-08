@@ -16,7 +16,6 @@ import java.nio.file.Path;
 @Service
 public class ThinkbackAnimationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ThinkbackAnimationService.class);
 
 
     /**

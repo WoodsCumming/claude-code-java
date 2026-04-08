@@ -20,7 +20,6 @@ import java.util.concurrent.Callable;
 )
 public class CompactCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CompactCommand.class);
 
 
     @Parameters(index = "0", description = "Optional custom summarization instructions", arity = "0..1")

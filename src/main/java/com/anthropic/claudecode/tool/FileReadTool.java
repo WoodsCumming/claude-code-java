@@ -27,7 +27,6 @@ import lombok.Data;
 @Component
 public class FileReadTool extends AbstractTool<FileReadTool.Input, FileReadTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileReadTool.class);
 
 
     public static final String TOOL_NAME = "Read";

@@ -29,7 +29,6 @@ import java.util.function.*;
 @Service
 public class CronSchedulerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronSchedulerService.class);
 
     /** Check interval in milliseconds — matches TS CHECK_INTERVAL_MS. */
     private static final long CHECK_INTERVAL_MS = 1_000L;

@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PluginCliCommandsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginCliCommandsService.class);
 
 
     /** Valid installable scopes (excludes 'managed'). */

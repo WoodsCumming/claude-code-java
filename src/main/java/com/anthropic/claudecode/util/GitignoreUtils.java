@@ -13,7 +13,6 @@ import java.util.concurrent.*;
 @Slf4j
 public class GitignoreUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GitignoreUtils.class);
 
 
     /**

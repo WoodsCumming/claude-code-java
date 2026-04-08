@@ -16,7 +16,6 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class RipgrepUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RipgrepUtils.class);
 
 
     /**

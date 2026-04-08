@@ -19,7 +19,6 @@ import java.util.*;
 @Slf4j
 @Service
 public class ProjectConfigService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ProjectConfigService.class);
 
     private static final String PROJECTS_SUBDIR = "projects";
     private static final String CONFIG_FILE = "config.json";

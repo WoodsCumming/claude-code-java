@@ -15,7 +15,6 @@ import java.util.*;
 @Service
 public class PluginFetchTelemetryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginFetchTelemetryService.class);
 
 
     private final AnalyticsService analyticsService;

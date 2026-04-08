@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 @Component
 public class TaskListTool extends AbstractTool<TaskListTool.Input, TaskListTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskListTool.class);
 
 
     public static final String TOOL_NAME = "TaskList";

@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class WarningHandler {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WarningHandler.class);
 
 
     public static final int MAX_WARNING_KEYS = 1000;

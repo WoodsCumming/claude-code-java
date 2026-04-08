@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 @Service
 public class LocalMainSessionTaskService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LocalMainSessionTaskService.class);
 
     private static final String TASK_ID_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyz";
     private static final SecureRandom SECURE_RANDOM = new SecureRandom();

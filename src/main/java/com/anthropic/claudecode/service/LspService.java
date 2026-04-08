@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class LspService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspService.class);
 
 
     // ── Types ─────────────────────────────────────────────────────────────────

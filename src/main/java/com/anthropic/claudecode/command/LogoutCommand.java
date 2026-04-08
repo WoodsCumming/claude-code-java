@@ -18,7 +18,6 @@ import picocli.CommandLine.*;
 )
 public class LogoutCommand implements Runnable {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LogoutCommand.class);
 
 
     private final OAuthService oauthService;

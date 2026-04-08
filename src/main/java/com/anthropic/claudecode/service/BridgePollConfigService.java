@@ -23,7 +23,6 @@ import java.util.Map;
 @Service
 public class BridgePollConfigService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgePollConfigService.class);
 
 
     // ─── Validation constraints ───────────────────────────────────────────────

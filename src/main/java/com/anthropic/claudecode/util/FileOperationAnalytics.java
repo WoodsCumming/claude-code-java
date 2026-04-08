@@ -10,7 +10,6 @@ import java.security.MessageDigest;
 @Slf4j
 public class FileOperationAnalytics {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileOperationAnalytics.class);
 
 
     private static final int MAX_CONTENT_HASH_SIZE = 100 * 1024; // 100KB

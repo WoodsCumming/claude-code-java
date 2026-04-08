@@ -19,7 +19,6 @@ import java.util.*;
 @Service
 public class CoordinatorModeService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CoordinatorModeService.class);
 
 
     private static final String COORDINATOR_MODE_ENV = "CLAUDE_CODE_COORDINATOR_MODE";

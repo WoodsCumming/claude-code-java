@@ -16,7 +16,6 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class TeleportApiUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeleportApiUtils.class);
 
 
     public static final String CCR_BYOC_BETA = "ccr-byoc-2025-07-29";

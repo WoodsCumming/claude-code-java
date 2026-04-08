@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ComputerUseHostAdapterService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ComputerUseHostAdapterService.class);
 
 
     public static final String COMPUTER_USE_MCP_SERVER_NAME = "computer-use";

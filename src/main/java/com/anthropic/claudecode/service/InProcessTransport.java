@@ -14,7 +14,6 @@ import java.util.function.Consumer;
 @Slf4j
 public class InProcessTransport {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InProcessTransport.class);
 
 
     private InProcessTransport peer;

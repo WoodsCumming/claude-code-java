@@ -21,7 +21,6 @@ import java.util.concurrent.Callable;
 )
 public class FeedbackCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FeedbackCommand.class);
 
 
     @Parameters(index = "0", description = "Feedback report", arity = "0..1")

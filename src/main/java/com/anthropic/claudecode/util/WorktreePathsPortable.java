@@ -18,7 +18,6 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class WorktreePathsPortable {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WorktreePathsPortable.class);
 
 
     private static final long GIT_TIMEOUT_MS = 5000;

@@ -23,7 +23,6 @@ import java.util.function.Consumer;
 @Slf4j
 public final class InkRoot {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InkRoot.class);
 
 
     private InkRoot() {}

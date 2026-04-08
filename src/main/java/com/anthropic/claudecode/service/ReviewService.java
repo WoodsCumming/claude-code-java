@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ReviewService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReviewService.class);
 
 
     private final BillingService billingService;

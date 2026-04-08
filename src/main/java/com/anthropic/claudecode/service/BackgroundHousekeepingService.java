@@ -18,7 +18,6 @@ import java.util.concurrent.*;
 @Service
 public class BackgroundHousekeepingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BackgroundHousekeepingService.class);
 
 
     /** 24 hours in milliseconds — interval for recurring cleanup. */

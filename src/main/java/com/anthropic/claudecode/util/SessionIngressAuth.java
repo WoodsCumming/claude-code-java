@@ -18,7 +18,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Slf4j
 public class SessionIngressAuth {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionIngressAuth.class);
 
 
     /**

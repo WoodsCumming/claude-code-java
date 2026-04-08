@@ -23,7 +23,6 @@ import java.util.regex.Pattern;
 @Service
 public class InternalLoggingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InternalLoggingService.class);
 
 
     private static final String NAMESPACE_PATH = "/var/run/secrets/kubernetes.io/serviceaccount/namespace";

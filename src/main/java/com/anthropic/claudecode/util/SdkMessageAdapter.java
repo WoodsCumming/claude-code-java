@@ -18,7 +18,6 @@ import java.util.Map;
 @UtilityClass
 public class SdkMessageAdapter {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SdkMessageAdapter.class);
 
 
     // =========================================================================

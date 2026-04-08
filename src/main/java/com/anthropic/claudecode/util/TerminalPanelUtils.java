@@ -22,7 +22,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Slf4j
 public class TerminalPanelUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TerminalPanelUtils.class);
 
 
     private static final String TMUX_SESSION = "panel";

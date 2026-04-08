@@ -15,7 +15,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class PowerShellDestructiveWarning {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PowerShellDestructiveWarning.class);
 
 
     /**

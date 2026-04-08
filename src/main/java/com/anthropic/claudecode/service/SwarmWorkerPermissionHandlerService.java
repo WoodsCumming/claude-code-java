@@ -33,7 +33,6 @@ import java.util.function.BiConsumer;
 @Service
 public class SwarmWorkerPermissionHandlerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SwarmWorkerPermissionHandlerService.class);
 
 
     private final SwarmPermissionSyncService swarmPermissionSyncService;

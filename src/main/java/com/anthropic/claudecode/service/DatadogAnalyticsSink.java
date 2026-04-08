@@ -26,7 +26,6 @@ import java.util.regex.Pattern;
 @Service
 public class DatadogAnalyticsSink implements AnalyticsService.AnalyticsSink {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DatadogAnalyticsSink.class);
 
 
     // -------------------------------------------------------------------------

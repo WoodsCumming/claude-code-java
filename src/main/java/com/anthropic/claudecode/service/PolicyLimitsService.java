@@ -40,7 +40,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class PolicyLimitsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PolicyLimitsService.class);
 
 
     private static final String CACHE_FILENAME = "policy-limits.json";

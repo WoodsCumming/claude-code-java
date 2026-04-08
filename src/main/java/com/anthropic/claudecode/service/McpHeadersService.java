@@ -26,7 +26,6 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class McpHeadersService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpHeadersService.class);
 
 
     /** Timeout for the headersHelper subprocess (mirrors timeout: 10_000 in TS). */

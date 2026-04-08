@@ -33,7 +33,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class XaaIdpLoginService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(XaaIdpLoginService.class);
 
 
     private static final long IDP_LOGIN_TIMEOUT_MS = 5 * 60 * 1000L;

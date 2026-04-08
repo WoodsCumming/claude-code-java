@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class MdmSettingsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MdmSettingsService.class);
 
 
     private final ObjectMapper objectMapper;

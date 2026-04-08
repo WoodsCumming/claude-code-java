@@ -18,7 +18,6 @@ import java.util.Set;
 @Service
 public class BillingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BillingService.class);
 
 
     private static final Set<String> CONSOLE_BILLING_ORG_ROLES = Set.of("admin", "billing");

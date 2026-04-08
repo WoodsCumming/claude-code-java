@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 @Service
 public class ComputerUseAppNamesService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ComputerUseAppNamesService.class);
 
 
     private static final Pattern INJECTION_PATTERN = Pattern.compile(

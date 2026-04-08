@@ -20,7 +20,6 @@ import java.util.function.UnaryOperator;
 @Service
 public class TaskFrameworkService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskFrameworkService.class);
 
 
     // Standard polling interval for all tasks

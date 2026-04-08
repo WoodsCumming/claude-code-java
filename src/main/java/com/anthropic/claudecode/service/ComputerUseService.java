@@ -16,7 +16,6 @@ import lombok.Data;
 @Service
 public class ComputerUseService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ComputerUseService.class);
 
 
     private final AuthService authService;

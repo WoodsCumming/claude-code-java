@@ -16,7 +16,6 @@ import lombok.Data;
 @Service
 public class ClassifierApprovalsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClassifierApprovalsService.class);
 
 
     private final Map<String, ClassifierApproval> approvals = new ConcurrentHashMap<>();

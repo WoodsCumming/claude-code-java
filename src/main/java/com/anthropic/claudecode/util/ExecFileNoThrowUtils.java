@@ -21,7 +21,6 @@ import java.util.concurrent.*;
 @Slf4j
 public final class ExecFileNoThrowUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExecFileNoThrowUtils.class);
 
 
     /** Default timeout: 10 minutes in milliseconds (mirrors TS constant). */

@@ -15,7 +15,6 @@ import java.util.*;
 @Slf4j
 public class ReadEditContext {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReadEditContext.class);
 
 
     public static final int CHUNK_SIZE = 8 * 1024;

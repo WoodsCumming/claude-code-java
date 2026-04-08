@@ -36,7 +36,6 @@ import java.util.Locale;
 @Component
 public class AnthropicClient {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AnthropicClient.class);
     private static final String DEFAULT_BASE_URL = "https://api.anthropic.com";
     private static final String BETA_BASE_URL = "https://api.anthropic.com";
     private static final String MESSAGES_PATH = "/v1/messages";

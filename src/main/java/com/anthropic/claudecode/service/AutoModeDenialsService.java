@@ -16,7 +16,6 @@ import lombok.Data;
 @Service
 public class AutoModeDenialsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AutoModeDenialsService.class);
 
 
     private static final int MAX_DENIALS = 20;

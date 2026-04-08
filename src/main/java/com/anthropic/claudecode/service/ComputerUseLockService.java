@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class ComputerUseLockService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ComputerUseLockService.class);
 
 
     private static final String LOCK_FILENAME = "computer-use.lock";

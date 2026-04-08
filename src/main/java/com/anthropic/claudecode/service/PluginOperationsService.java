@@ -25,7 +25,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PluginOperationsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginOperationsService.class);
 
 
     /** Valid installable scopes (excludes 'managed' which is installed from managed-settings.json). */

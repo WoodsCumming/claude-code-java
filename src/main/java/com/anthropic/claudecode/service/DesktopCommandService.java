@@ -20,7 +20,6 @@ import java.util.List;
 @Service
 public class DesktopCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DesktopCommandService.class);
 
 
     /** Command name. Translated from: name: 'desktop' in index.ts */

@@ -21,7 +21,6 @@ import lombok.Data;
 @Service
 public class TeamService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamService.class);
 
 
     private static final String TEAM_LEAD_NAME = "team-lead";

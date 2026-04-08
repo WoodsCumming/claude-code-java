@@ -36,7 +36,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class JsonUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(JsonUtils.class);
 
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

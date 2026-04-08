@@ -22,7 +22,6 @@ import java.util.function.Function;
 @Service
 public class FilePermissionDialogService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FilePermissionDialogService.class);
 
 
     private final AnalyticsService analyticsService;

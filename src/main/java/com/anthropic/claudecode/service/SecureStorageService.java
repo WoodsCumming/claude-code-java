@@ -17,7 +17,6 @@ import java.util.*;
 @Slf4j
 @Service
 public class SecureStorageService implements BridgeTrustedDeviceService.SecureStorageService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SecureStorageService.class);
 
     private static final String KEYS_FILE = "credentials.json";
 

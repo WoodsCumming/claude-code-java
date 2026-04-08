@@ -30,7 +30,6 @@ import java.util.function.Supplier;
 @Service
 public class BridgeReplService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeReplService.class);
 
 
     // ─── Handle interface ─────────────────────────────────────────────────────

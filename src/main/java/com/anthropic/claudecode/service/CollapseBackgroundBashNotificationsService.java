@@ -23,7 +23,6 @@ import java.util.List;
 @Service
 public class CollapseBackgroundBashNotificationsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CollapseBackgroundBashNotificationsService.class);
 
 
     // XML tag constants mirroring constants/xml.ts

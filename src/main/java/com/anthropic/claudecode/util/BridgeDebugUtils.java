@@ -17,7 +17,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class BridgeDebugUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeDebugUtils.class);
 
 
     private static final int DEBUG_MSG_LIMIT = 2000;

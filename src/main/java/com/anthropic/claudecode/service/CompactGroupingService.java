@@ -24,7 +24,6 @@ import java.util.List;
 @Service
 public class CompactGroupingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CompactGroupingService.class);
 
 
     /**

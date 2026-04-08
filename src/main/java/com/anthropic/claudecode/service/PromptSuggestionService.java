@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @Service
 public class PromptSuggestionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptSuggestionService.class);
 
 
     private static final int MAX_PARENT_UNCACHED_TOKENS = 10_000;

@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @RequiredArgsConstructor
 public class SideQuestionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SideQuestionService.class);
 
 
     // Pattern that detects "/btw" at the very start of the input (case-insensitive)

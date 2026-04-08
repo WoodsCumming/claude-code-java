@@ -17,7 +17,6 @@ import java.util.regex.*;
 @Service
 public class BashSecurityService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BashSecurityService.class);
 
 
     private static final List<Pattern> COMMAND_SUBSTITUTION_PATTERNS = List.of(

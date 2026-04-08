@@ -22,7 +22,6 @@ import java.util.regex.Pattern;
 @Slf4j
 @Service
 public class WorktreeService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WorktreeService.class);
 
     // =========================================================================
     // Slug validation

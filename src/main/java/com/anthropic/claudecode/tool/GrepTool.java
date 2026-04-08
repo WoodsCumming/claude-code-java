@@ -25,7 +25,6 @@ import lombok.Data;
 @Component
 public class GrepTool extends AbstractTool<GrepTool.Input, GrepTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GrepTool.class);
 
 
     public static final String TOOL_NAME = "Grep";

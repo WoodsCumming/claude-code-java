@@ -25,7 +25,6 @@ import java.util.function.BiFunction;
 @Service
 public class PermissionContextService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PermissionContextService.class);
 
     // =========================================================================
     // ResolveOnce  (createResolveOnce in PermissionContext.ts)

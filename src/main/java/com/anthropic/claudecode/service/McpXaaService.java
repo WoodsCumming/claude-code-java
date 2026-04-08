@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpXaaService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpXaaService.class);
 
 
     private static final String TOKEN_EXCHANGE_GRANT = "urn:ietf:params:oauth:grant-type:token-exchange";

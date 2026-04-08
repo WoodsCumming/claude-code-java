@@ -25,7 +25,6 @@ import java.util.function.Predicate;
 @Service
 public class TeammateMailboxService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeammateMailboxService.class);
 
 
     // =========================================================================

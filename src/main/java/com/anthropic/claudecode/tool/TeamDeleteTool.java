@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Component
 public class TeamDeleteTool extends AbstractTool<TeamDeleteTool.Input, TeamDeleteTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamDeleteTool.class);
 
 
     public static final String TOOL_NAME = "TeamDelete";

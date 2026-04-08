@@ -24,7 +24,6 @@ import java.io.*;
 @Slf4j
 public class AnsiToPngUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AnsiToPngUtils.class);
 
 
     // Default glyph cell dimensions (mirrors TypeScript GLYPH_W / GLYPH_H)

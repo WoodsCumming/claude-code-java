@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class MarketplaceManagerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MarketplaceManagerService.class);
 
 
     private static final String KNOWN_MARKETPLACES_FILE = "known_marketplaces.json";

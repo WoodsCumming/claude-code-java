@@ -23,7 +23,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class FeedbackService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FeedbackService.class);
 
 
     private static final String TRANSCRIPT_SHARE_URL =

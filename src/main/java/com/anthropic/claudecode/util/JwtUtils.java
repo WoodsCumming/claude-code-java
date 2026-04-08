@@ -21,7 +21,6 @@ import java.util.function.Supplier;
 @Slf4j
 public class JwtUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(JwtUtils.class);
 
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

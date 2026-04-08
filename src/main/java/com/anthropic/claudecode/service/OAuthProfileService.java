@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 @Service
 public class OAuthProfileService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OAuthProfileService.class);
 
     private final ObjectMapper objectMapper;
 

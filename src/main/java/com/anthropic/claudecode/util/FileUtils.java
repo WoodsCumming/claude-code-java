@@ -13,7 +13,6 @@ import java.util.*;
 @Slf4j
 public class FileUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileUtils.class);
 
 
     public static final long MAX_OUTPUT_SIZE = (long) (0.25 * 1024 * 1024); // 0.25MB

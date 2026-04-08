@@ -13,7 +13,6 @@ import java.util.concurrent.*;
 @Component
 public class BinaryCheck {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BinaryCheck.class);
 
 
     private static final Map<String, Boolean> binaryCache = new ConcurrentHashMap<>();

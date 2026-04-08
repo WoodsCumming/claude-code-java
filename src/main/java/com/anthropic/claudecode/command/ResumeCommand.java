@@ -44,7 +44,6 @@ import java.util.regex.Pattern;
 )
 public class ResumeCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ResumeCommand.class);
 
 
     private static final Pattern UUID_PATTERN =

@@ -12,7 +12,6 @@ import java.util.Optional;
 @Slf4j
 public class AuthFileDescriptor {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AuthFileDescriptor.class);
 
 
     public static final String CCR_TOKEN_DIR = "/home/claude/.claude/remote";

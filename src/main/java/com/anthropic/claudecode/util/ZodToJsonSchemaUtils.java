@@ -31,7 +31,6 @@ import java.util.function.Supplier;
 @Slf4j
 public final class ZodToJsonSchemaUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ZodToJsonSchemaUtils.class);
 
 
     private static final ObjectMapper MAPPER = new ObjectMapper();

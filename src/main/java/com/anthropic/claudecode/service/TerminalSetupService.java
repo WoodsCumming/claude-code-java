@@ -22,7 +22,6 @@ import java.util.Optional;
 @Service
 public class TerminalSetupService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TerminalSetupService.class);
 
 
     // -------------------------------------------------------------------------

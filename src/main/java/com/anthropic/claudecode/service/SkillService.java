@@ -21,7 +21,6 @@ import lombok.Data;
 @Service
 public class SkillService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SkillService.class);
 
 
     private static final String SKILLS_DIR = "skills";

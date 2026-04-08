@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class RememberSkill {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RememberSkill.class);
 
 
     private static final String SKILL_PROMPT = """

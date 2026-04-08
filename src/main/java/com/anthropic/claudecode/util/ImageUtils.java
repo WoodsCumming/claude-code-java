@@ -16,7 +16,6 @@ import java.util.Base64;
 @Slf4j
 public class ImageUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ImageUtils.class);
 
 
     // API limits (from constants/apiLimits.ts)

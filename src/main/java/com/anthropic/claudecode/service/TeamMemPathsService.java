@@ -17,7 +17,6 @@ import java.util.*;
 @Service
 public class TeamMemPathsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamMemPathsService.class);
 
     /**
      * Check if a path is a team memory file.

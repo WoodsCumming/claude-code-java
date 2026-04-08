@@ -21,7 +21,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class RemoteSetupService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RemoteSetupService.class);
 
 
     // -------------------------------------------------------------------------

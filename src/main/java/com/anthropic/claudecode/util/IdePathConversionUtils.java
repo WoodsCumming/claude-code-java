@@ -12,7 +12,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class IdePathConversionUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(IdePathConversionUtils.class);
 
 
     private static final Pattern WSL_UNC_PATTERN =

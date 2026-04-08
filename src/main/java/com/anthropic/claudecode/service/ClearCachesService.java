@@ -25,7 +25,6 @@ import java.util.Set;
 @Service
 public class ClearCachesService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClearCachesService.class);
 
 
     // ---------------------------------------------------------------------------

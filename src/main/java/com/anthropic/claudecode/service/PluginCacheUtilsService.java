@@ -14,7 +14,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PluginCacheUtilsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginCacheUtilsService.class);
 
 
     private final PluginLoaderService pluginLoader;

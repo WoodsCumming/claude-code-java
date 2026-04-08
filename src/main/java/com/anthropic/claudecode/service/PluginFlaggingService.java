@@ -20,7 +20,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Service
 public class PluginFlaggingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginFlaggingService.class);
 
 
     private static final String FLAGGED_PLUGINS_FILE = "flagged-plugins.json";

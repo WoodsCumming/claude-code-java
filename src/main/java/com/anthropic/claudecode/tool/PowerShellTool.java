@@ -21,7 +21,6 @@ import java.util.function.Consumer;
 @Component
 public class PowerShellTool extends AbstractTool<PowerShellTool.Input, PowerShellTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PowerShellTool.class);
 
 
     public static final String TOOL_NAME = "PowerShell";

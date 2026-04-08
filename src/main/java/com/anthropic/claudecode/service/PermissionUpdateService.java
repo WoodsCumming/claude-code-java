@@ -16,7 +16,6 @@ import java.util.*;
 @Service
 public class PermissionUpdateService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PermissionUpdateService.class);
 
 
     /**

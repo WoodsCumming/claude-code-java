@@ -16,7 +16,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Slf4j
 public class McpValidationUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpValidationUtils.class);
 
 
     public static final double MCP_TOKEN_COUNT_THRESHOLD_FACTOR = 0.5;

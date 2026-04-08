@@ -28,7 +28,6 @@ import java.util.function.Supplier;
 @Service
 public class BridgeInitService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeInitService.class);
 
 
     private static final int TITLE_MAX_LEN = 50;

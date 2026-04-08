@@ -20,7 +20,6 @@ import java.util.regex.Pattern;
 @Service
 public class LocalShellTaskService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LocalShellTaskService.class);
 
 
     public static final String BACKGROUND_BASH_SUMMARY_PREFIX = "Background command ";

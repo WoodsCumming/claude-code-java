@@ -19,7 +19,6 @@ import java.util.function.Consumer;
 @Component
 public class LspTool extends AbstractTool<LspTool.Input, LspTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspTool.class);
 
 
     public static final String TOOL_NAME = "LSP";

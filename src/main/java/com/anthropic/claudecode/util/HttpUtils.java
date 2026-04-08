@@ -18,7 +18,6 @@ import java.util.function.Supplier;
 @Slf4j
 public class HttpUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HttpUtils.class);
 
 
     // WARNING: We rely on `claude-cli` in the user agent for log filtering.
@@ -233,6 +232,7 @@ public class HttpUtils {
     /**
      * Simple wrapper for HTTP error status codes.
      */
+    @lombok.EqualsAndHashCode(callSuper = false)
     @Data
     @lombok.NoArgsConstructor(force = true)
     @lombok.AllArgsConstructor

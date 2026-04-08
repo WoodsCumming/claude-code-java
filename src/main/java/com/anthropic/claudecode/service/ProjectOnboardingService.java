@@ -20,7 +20,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class ProjectOnboardingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ProjectOnboardingService.class);
 
 
     private final ProjectConfigService projectConfigService;

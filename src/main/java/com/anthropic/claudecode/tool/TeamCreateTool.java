@@ -19,7 +19,6 @@ import java.util.function.Consumer;
 @Component
 public class TeamCreateTool extends AbstractTool<TeamCreateTool.Input, TeamCreateTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamCreateTool.class);
 
 
     public static final String TOOL_NAME = "TeamCreate";

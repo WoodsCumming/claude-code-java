@@ -28,7 +28,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class ConcurrentSessionsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ConcurrentSessionsService.class);
 
 
     // ------------------------------------------------------------------

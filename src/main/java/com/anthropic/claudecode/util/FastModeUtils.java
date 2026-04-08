@@ -18,7 +18,6 @@ import java.util.function.Consumer;
 @Slf4j
 public class FastModeUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FastModeUtils.class);
 
 
     /** Display name for the fast-mode model. Translated from FAST_MODE_MODEL_DISPLAY. */

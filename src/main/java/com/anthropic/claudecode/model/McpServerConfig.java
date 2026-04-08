@@ -66,6 +66,7 @@ public sealed interface McpServerConfig permits
     @Data @Builder @NoArgsConstructor
 @AllArgsConstructor
     final class StdioConfig implements McpServerConfig {
+        @Builder.Default
         private String type = "stdio";
         private String command;
         private List<String> args;
@@ -83,6 +84,7 @@ public sealed interface McpServerConfig permits
     @Data @Builder @NoArgsConstructor
 @AllArgsConstructor
     final class SseConfig implements McpServerConfig {
+        @Builder.Default
         private String type = "sse";
         private String url;
         private Map<String, String> headers;
@@ -100,6 +102,7 @@ public sealed interface McpServerConfig permits
     @Data @Builder @NoArgsConstructor
 @AllArgsConstructor
     final class HttpConfig implements McpServerConfig {
+        @Builder.Default
         private String type = "http";
         private String url;
         private Map<String, String> headers;

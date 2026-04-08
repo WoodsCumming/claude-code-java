@@ -25,7 +25,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class LspRecommendationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspRecommendationService.class);
 
 
     /** Maximum number of times a user can ignore recommendations before we stop showing them. */

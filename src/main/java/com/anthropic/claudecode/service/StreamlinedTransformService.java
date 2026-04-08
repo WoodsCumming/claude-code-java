@@ -21,7 +21,6 @@ import java.util.function.Function;
 @Service
 public class StreamlinedTransformService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(StreamlinedTransformService.class);
 
 
     // Tool category sets — matching the TypeScript source constants

@@ -21,7 +21,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Slf4j
 public class FullscreenModeUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FullscreenModeUtils.class);
 
 
     private static final AtomicReference<Boolean> cachedResult = new AtomicReference<>(null);

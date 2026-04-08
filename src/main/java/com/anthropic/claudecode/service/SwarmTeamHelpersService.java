@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class SwarmTeamHelpersService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SwarmTeamHelpersService.class);
 
 
     private final ObjectMapper objectMapper;

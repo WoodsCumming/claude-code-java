@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
 @Service
 public class ParseMarketplaceInputService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ParseMarketplaceInputService.class);
 
 
     private static final Pattern GIT_SSH_PATTERN = Pattern.compile(

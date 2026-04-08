@@ -108,7 +108,6 @@ public class StructuredIoService {
      */
     public static class StructuredIo {
 
-        private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(StructuredIo.class);
 
         private final BlockingQueue<String> inputQueue = new LinkedBlockingQueue<>();
         private final Map<String, PendingRequest> pendingRequests = new ConcurrentHashMap<>();

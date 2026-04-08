@@ -18,7 +18,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class DiagnosticTrackingService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DiagnosticTrackingService.class);
 
 
     private static final int MAX_DIAGNOSTICS_SUMMARY_CHARS = 4000;

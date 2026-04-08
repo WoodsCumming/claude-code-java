@@ -23,7 +23,6 @@ import lombok.Data;
 @Component
 public class BashTool extends AbstractTool<BashTool.Input, BashTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BashTool.class);
 
     public static final String TOOL_NAME = "Bash";
 

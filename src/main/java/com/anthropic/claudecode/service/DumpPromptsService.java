@@ -19,7 +19,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 @Service
 public class DumpPromptsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DumpPromptsService.class);
 
 
     private static final int MAX_CACHED_REQUESTS = 5;

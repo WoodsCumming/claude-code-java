@@ -20,7 +20,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class NotebookUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(NotebookUtils.class);
 
 
     private static final int LARGE_OUTPUT_THRESHOLD = 10_000;

@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Component
 public class SendMessageTool extends AbstractTool<SendMessageTool.Input, SendMessageTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SendMessageTool.class);
 
 
     public static final String TOOL_NAME = "SendMessage";

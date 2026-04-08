@@ -18,7 +18,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public class GlobUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GlobUtils.class);
 
 
     // -------------------------------------------------------------------------

@@ -28,7 +28,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public class PluginTelemetry {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginTelemetry.class);
 
 
     private static final String BUILTIN_MARKETPLACE_NAME = "builtin";

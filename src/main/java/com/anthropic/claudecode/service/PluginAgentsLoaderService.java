@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PluginAgentsLoaderService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginAgentsLoaderService.class);
 
 
     private final PluginLoaderService pluginLoaderService;

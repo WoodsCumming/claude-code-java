@@ -17,7 +17,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class ExportCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExportCommandService.class);
 
 
     // ---------------------------------------------------------------------------

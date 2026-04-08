@@ -25,7 +25,6 @@ import java.util.function.Consumer;
 @Slf4j
 @Service
 public class AnalyticsService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AnalyticsService.class);
 
     // =========================================================================
     // Telemetry event constants

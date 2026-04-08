@@ -16,7 +16,6 @@ import java.util.Optional;
 @Service
 public class AppStateSelectors {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AppStateSelectors.class);
 
 
     private final AppState appState;

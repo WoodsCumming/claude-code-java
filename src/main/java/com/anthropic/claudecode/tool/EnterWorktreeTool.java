@@ -19,7 +19,6 @@ import java.util.function.Consumer;
 @Component
 public class EnterWorktreeTool extends AbstractTool<EnterWorktreeTool.Input, EnterWorktreeTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(EnterWorktreeTool.class);
 
 
     public static final String TOOL_NAME = "EnterWorktree";

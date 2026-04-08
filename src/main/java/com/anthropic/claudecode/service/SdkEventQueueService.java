@@ -20,7 +20,6 @@ import java.util.function.Consumer;
 @Service
 public class SdkEventQueueService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SdkEventQueueService.class);
 
 
     private static final int MAX_QUEUE_SIZE = 1000;

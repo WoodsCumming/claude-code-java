@@ -26,7 +26,6 @@ import java.util.regex.Pattern;
 @Service
 public class QueryHelperService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(QueryHelperService.class);
 
 
     // ---- Tool progress throttle (mirrors queryHelpers.ts constants) ----

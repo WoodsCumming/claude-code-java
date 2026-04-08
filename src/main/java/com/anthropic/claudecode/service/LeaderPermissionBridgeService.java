@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Service
 public class LeaderPermissionBridgeService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LeaderPermissionBridgeService.class);
 
 
     private volatile Consumer<Map<String, Object>> registeredSetter;

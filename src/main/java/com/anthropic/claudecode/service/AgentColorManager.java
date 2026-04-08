@@ -15,7 +15,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class AgentColorManager {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentColorManager.class);
 
 
     public static final List<String> AGENT_COLORS = List.of(

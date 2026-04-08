@@ -25,7 +25,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class QueryConfigService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(QueryConfigService.class);
 
 
     private final BootstrapStateService bootstrapStateService;

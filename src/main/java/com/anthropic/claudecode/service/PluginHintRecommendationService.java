@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PluginHintRecommendationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginHintRecommendationService.class);
 
 
     private final GlobalConfigService globalConfigService;

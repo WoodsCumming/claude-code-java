@@ -15,7 +15,6 @@ import lombok.Data;
 @Service
 public class TipService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TipService.class);
 
 
     @Data

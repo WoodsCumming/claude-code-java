@@ -18,7 +18,6 @@ import lombok.Data;
 @Component
 public class ReadMcpResourceTool extends AbstractTool<ReadMcpResourceTool.Input, ReadMcpResourceTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReadMcpResourceTool.class);
 
 
     public static final String TOOL_NAME = "ReadMcpResource";

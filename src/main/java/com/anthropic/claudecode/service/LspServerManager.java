@@ -21,7 +21,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class LspServerManager {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspServerManager.class);
 
 
     private final LspServerInstanceService lspServerInstanceService;

@@ -20,7 +20,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class MetricsOptOutService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MetricsOptOutService.class);
 
 
     private static final long CACHE_TTL_MS = 60 * 60 * 1000; // 1 hour

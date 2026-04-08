@@ -15,7 +15,6 @@ import java.util.function.Consumer;
 @Component
 public class TaskStopTool extends AbstractTool<TaskStopTool.Input, TaskStopTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskStopTool.class);
 
 
     public static final String TOOL_NAME = "TaskStop";

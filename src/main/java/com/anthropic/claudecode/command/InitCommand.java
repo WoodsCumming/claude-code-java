@@ -17,7 +17,6 @@ import java.util.concurrent.Callable;
 )
 public class InitCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InitCommand.class);
 
 
     @Override

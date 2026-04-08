@@ -28,7 +28,6 @@ import java.util.regex.Pattern;
 @Service
 public class SessionEnvironmentService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionEnvironmentService.class);
 
 
     /**

@@ -16,7 +16,6 @@ import java.util.function.BiConsumer;
 @Service
 public class PluginMarkdownWalkerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginMarkdownWalkerService.class);
 
 
     /**

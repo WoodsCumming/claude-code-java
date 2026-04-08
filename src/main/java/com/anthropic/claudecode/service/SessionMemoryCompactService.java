@@ -33,7 +33,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class SessionMemoryCompactService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionMemoryCompactService.class);
 
 
     // Default configuration values (exported for use in tests).

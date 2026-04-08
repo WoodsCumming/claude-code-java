@@ -38,7 +38,6 @@ import java.util.concurrent.Callable;
 )
 public class EffortCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(EffortCommand.class);
 
 
     /** Valid named effort levels (mirrors isEffortLevel() in effort.ts). */

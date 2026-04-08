@@ -15,7 +15,6 @@ import java.util.*;
 @Service
 public class TaskRegistryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskRegistryService.class);
 
 
     private final LocalShellTaskService localShellTaskService;

@@ -26,7 +26,6 @@ import java.util.function.Consumer;
 @Service
 public class TaskOutputManager {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskOutputManager.class);
 
 
     private static final long POLL_INTERVAL_MS = 1000;

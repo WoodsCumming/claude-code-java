@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpbHandlerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpbHandlerService.class);
 
     private final OkHttpClient httpClient;
     private final ObjectMapper objectMapper;

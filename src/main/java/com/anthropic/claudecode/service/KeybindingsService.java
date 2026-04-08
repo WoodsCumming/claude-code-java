@@ -36,7 +36,6 @@ import java.util.function.Consumer;
 @Service
 public class KeybindingsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(KeybindingsService.class);
 
 
     private static final String KEYBINDINGS_FILENAME = "keybindings.json";

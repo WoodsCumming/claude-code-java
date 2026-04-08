@@ -40,7 +40,6 @@ import java.util.function.Consumer;
 @Service
 public class BridgeSessionRunnerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeSessionRunnerService.class);
 
 
     private static final int MAX_ACTIVITIES = 10;

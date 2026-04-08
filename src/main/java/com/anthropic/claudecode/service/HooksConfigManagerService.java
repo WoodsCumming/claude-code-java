@@ -18,7 +18,6 @@ import java.util.*;
 @Service
 public class HooksConfigManagerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HooksConfigManagerService.class);
 
 
     /** Default timeout for tool hooks: 10 minutes. */

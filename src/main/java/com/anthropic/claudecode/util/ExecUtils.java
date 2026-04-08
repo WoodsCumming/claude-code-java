@@ -15,7 +15,6 @@ import java.util.concurrent.*;
 @Slf4j
 public class ExecUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExecUtils.class);
 
 
     private static final long DEFAULT_TIMEOUT_MS = 10 * 60 * 1000L; // 10 minutes

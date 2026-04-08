@@ -40,7 +40,6 @@ import lombok.Data;
 @Service
 public class AuthService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AuthService.class);
 
     private final ClaudeCodeConfig config;
     private final OAuthService oauthService;

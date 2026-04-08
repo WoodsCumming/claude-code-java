@@ -31,7 +31,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class PromptSpeculationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptSpeculationService.class);
 
 
     private static final int MAX_SPECULATION_TURNS = 20;

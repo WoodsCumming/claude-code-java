@@ -23,7 +23,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpXaaIdpLoginService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpXaaIdpLoginService.class);
 
 
     /**

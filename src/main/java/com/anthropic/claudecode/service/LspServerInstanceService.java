@@ -29,7 +29,6 @@ import java.util.function.Function;
 @Service
 public class LspServerInstanceService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspServerInstanceService.class);
 
 
     // ── Constants ─────────────────────────────────────────────────────────────

@@ -21,7 +21,6 @@ import java.util.*;
 @Service
 public class TeamDiscoveryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamDiscoveryService.class);
 
 
     /** Backend types for swarm panes. */

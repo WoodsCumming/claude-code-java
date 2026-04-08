@@ -17,7 +17,6 @@ import java.util.List;
 @Slf4j
 public class WorktreePaths {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(WorktreePaths.class);
 
 
     /**

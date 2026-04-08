@@ -18,7 +18,6 @@ import java.util.function.BiConsumer;
 @Slf4j
 @Service
 public class FileChangedWatcherService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileChangedWatcherService.class);
 
     private volatile WatchService watchService;
     private volatile boolean initialized = false;

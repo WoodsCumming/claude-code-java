@@ -24,7 +24,6 @@ import java.util.concurrent.atomic.*;
 @Service
 public class BootstrapStateService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BootstrapStateService.class);
 
 
     private final CostTracker costTracker;

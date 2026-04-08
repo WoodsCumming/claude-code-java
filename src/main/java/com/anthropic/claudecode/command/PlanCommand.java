@@ -38,7 +38,6 @@ import java.util.concurrent.Callable;
 )
 public class PlanCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PlanCommand.class);
 
 
     /**

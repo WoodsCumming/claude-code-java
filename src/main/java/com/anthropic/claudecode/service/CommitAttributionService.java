@@ -19,7 +19,6 @@ import lombok.Data;
 @Service
 public class CommitAttributionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CommitAttributionService.class);
 
 
     private static final String CO_AUTHORED_BY_TRAILER = "Co-Authored-By: Claude <noreply@anthropic.com>";

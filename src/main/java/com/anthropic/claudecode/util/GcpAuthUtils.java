@@ -14,7 +14,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @Slf4j
 public final class GcpAuthUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GcpAuthUtils.class);
 
 
     /** Short timeout for the GCP credentials probe (5 seconds). */

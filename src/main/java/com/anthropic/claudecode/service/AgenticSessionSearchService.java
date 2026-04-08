@@ -25,7 +25,6 @@ import java.util.stream.Collectors;
 @Service
 public class AgenticSessionSearchService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgenticSessionSearchService.class);
 
 
     // Limits for transcript extraction — translated from constants in agenticSessionSearch.ts

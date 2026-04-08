@@ -24,7 +24,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class DebugSkill {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DebugSkill.class);
 
 
     // -------------------------------------------------------------------------

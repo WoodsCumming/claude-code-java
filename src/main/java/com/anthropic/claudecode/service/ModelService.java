@@ -38,7 +38,6 @@ import java.util.function.Supplier;
 @Service
 public class ModelService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ModelService.class);
 
 
     // -------------------------------------------------------------------------

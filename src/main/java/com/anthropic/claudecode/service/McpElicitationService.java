@@ -24,7 +24,6 @@ import java.util.function.Function;
 @Service
 public class McpElicitationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpElicitationService.class);
 
 
     // ── Elicitation types ────────────────────────────────────────────────────

@@ -21,7 +21,6 @@ import lombok.Data;
 @Service
 public class FileHistoryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FileHistoryService.class);
 
 
     private static final int MAX_SNAPSHOTS = 100;

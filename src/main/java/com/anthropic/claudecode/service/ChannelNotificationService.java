@@ -26,7 +26,6 @@ import java.util.regex.Pattern;
 @Service
 public class ChannelNotificationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ChannelNotificationService.class);
 
 
     public static final String CHANNEL_PERMISSION_METHOD = "notifications/claude/channel/permission";

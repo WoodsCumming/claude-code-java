@@ -31,7 +31,6 @@ import java.util.function.IntConsumer;
 @Service
 public class BridgeReplTransportService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeReplTransportService.class);
 
 
     /**

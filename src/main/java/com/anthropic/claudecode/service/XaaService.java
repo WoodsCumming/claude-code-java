@@ -32,7 +32,6 @@ import java.util.regex.Pattern;
 @Service
 public class XaaService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(XaaService.class);
 
 
     private static final long XAA_REQUEST_TIMEOUT_MS = 30_000L;

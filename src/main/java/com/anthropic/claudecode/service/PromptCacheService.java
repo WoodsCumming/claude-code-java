@@ -25,7 +25,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class PromptCacheService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptCacheService.class);
 
 
     // -----------------------------------------------------------------------

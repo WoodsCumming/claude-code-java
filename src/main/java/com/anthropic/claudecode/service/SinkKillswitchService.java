@@ -20,7 +20,6 @@ import java.util.Map;
 @Service
 public class SinkKillswitchService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SinkKillswitchService.class);
 
 
     // Mangled name: per-sink analytics killswitch

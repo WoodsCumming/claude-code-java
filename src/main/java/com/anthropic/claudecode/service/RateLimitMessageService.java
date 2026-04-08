@@ -15,7 +15,6 @@ import lombok.Data;
 @Service
 public class RateLimitMessageService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RateLimitMessageService.class);
 
 
     public static final List<String> RATE_LIMIT_ERROR_PREFIXES = List.of(

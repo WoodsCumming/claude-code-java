@@ -24,7 +24,6 @@ import java.util.concurrent.Callable;
 )
 public class ConfigCommand implements Runnable {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ConfigCommand.class);
 
 
     @Override

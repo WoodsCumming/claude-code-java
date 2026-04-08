@@ -17,7 +17,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class InitializationService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InitializationService.class);
 
 
     private final AtomicBoolean initialized = new AtomicBoolean(false);

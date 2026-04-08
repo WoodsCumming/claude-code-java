@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class OfficialMarketplaceGcsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OfficialMarketplaceGcsService.class);
 
 
     private static final String GCS_BASE_URL = "https://storage.googleapis.com/claude-code-marketplace";

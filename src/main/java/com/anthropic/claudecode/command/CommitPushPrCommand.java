@@ -26,7 +26,6 @@ import java.util.concurrent.CompletableFuture;
 )
 public class CommitPushPrCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CommitPushPrCommand.class);
 
 
     // ---------------------------------------------------------------------------

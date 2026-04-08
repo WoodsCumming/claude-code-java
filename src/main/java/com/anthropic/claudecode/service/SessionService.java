@@ -23,7 +23,6 @@ import lombok.Data;
 @Service
 public class SessionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionService.class);
 
 
     private static final String SESSIONS_DIR = "sessions";

@@ -16,7 +16,6 @@ import java.util.zip.*;
 @Slf4j
 public class DxtUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DxtUtils.class);
 
 
     private static final ObjectMapper objectMapper = new ObjectMapper();

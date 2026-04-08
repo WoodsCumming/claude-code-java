@@ -15,7 +15,6 @@ import java.util.*;
 @Service
 public class ShouldUseSandboxService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ShouldUseSandboxService.class);
 
 
     private final SandboxService sandboxService;

@@ -20,7 +20,6 @@ import java.util.function.Consumer;
 @SuppressWarnings({"unchecked","rawtypes"})
 public class BriefTool extends AbstractTool<java.util.Map<String, Object>, java.util.Map<String, Object>> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BriefTool.class);
 
 
     public static final String BRIEF_TOOL_NAME = "Brief";

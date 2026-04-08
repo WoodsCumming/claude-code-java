@@ -18,7 +18,6 @@ import lombok.Data;
 @Component
 public class TodoWriteTool extends AbstractTool<TodoWriteTool.Input, TodoWriteTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TodoWriteTool.class);
 
 
     public static final String TOOL_NAME = "TodoWrite";

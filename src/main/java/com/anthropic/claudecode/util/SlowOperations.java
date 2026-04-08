@@ -19,7 +19,6 @@ import java.nio.file.StandardOpenOption;
 @Slf4j
 public class SlowOperations {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SlowOperations.class);
 
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

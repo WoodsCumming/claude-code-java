@@ -14,7 +14,6 @@ import java.util.*;
 @Slf4j
 public class CaCertsUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CaCertsUtils.class);
 
 
     private static volatile List<String> cachedCerts;

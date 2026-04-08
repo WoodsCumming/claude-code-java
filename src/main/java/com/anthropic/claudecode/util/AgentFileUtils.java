@@ -28,7 +28,6 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public final class AgentFileUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentFileUtils.class);
 
 
     private AgentFileUtils() {}

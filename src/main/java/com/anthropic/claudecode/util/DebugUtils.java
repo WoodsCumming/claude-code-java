@@ -12,7 +12,6 @@ import java.util.*;
 @Slf4j
 public class DebugUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DebugUtils.class);
 
 
     public enum DebugLogLevel {

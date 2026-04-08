@@ -27,7 +27,6 @@ import java.util.concurrent.CompletableFuture;
 @RequiredArgsConstructor
 public class DoctorContextWarningsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DoctorContextWarningsService.class);
 
 
     // Token budget threshold above which MCP tools are considered "large"

@@ -18,7 +18,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class SessionMemoryPrompts {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionMemoryPrompts.class);
 
 
     public static final int MAX_SECTION_LENGTH = 2000;

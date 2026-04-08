@@ -21,7 +21,6 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 public class FilePersistenceService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FilePersistenceService.class);
 
     private static final String OUTPUTS_SUBDIR = "outputs";
     private static final int FILE_COUNT_LIMIT = 100;

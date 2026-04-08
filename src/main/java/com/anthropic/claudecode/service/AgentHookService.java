@@ -18,7 +18,6 @@ import java.util.concurrent.*;
 @Service
 public class AgentHookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentHookService.class);
 
 
     private static final long DEFAULT_HOOK_TIMEOUT_MS = 5 * 60 * 1000L; // 5 minutes

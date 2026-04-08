@@ -27,7 +27,6 @@ import java.util.stream.Stream;
 @Slf4j
 public class AsciicastUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AsciicastUtils.class);
 
 
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();

@@ -23,7 +23,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class LspPassiveFeedbackService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LspPassiveFeedbackService.class);
 
 
     private final LspDiagnosticRegistry diagnosticRegistry;

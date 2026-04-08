@@ -30,7 +30,6 @@ import java.util.stream.Collectors;
 @Service
 public class VcrService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(VcrService.class);
 
 
     private final ObjectMapper objectMapper;

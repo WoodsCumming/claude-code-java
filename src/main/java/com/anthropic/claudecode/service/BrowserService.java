@@ -14,7 +14,6 @@ import java.net.URI;
 @Slf4j
 @Service
 public class BrowserService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BrowserService.class);
 
     /**
      * Attempts to open the given URL in the default browser.

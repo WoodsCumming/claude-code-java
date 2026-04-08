@@ -28,7 +28,6 @@ import javax.imageio.stream.ImageOutputStream;
 @Slf4j
 @Service
 public class ImageProcessorService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ImageProcessorService.class);
 
     // -------------------------------------------------------------------------
     // API limits (mirror src/constants/apiLimits.ts)

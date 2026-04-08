@@ -31,7 +31,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class ReferralService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReferralService.class);
 
 
     private static final long CACHE_EXPIRATION_MS = 24L * 60 * 60 * 1_000;

@@ -24,7 +24,6 @@ import java.util.concurrent.*;
     description = "Login to Claude.ai"
 )
 public class LoginCommand implements Runnable {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(LoginCommand.class);
 
     @Option(
         names = {"--provider"},

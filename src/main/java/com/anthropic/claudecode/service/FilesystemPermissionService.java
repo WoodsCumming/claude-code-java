@@ -18,7 +18,6 @@ import java.util.*;
 @Service
 public class FilesystemPermissionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FilesystemPermissionService.class);
 
 
     /**

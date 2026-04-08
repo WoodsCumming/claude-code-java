@@ -15,7 +15,6 @@ import java.util.function.Supplier;
 @Service
 public class RetryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(RetryService.class);
 
 
     private static final int DEFAULT_MAX_RETRIES = 10;

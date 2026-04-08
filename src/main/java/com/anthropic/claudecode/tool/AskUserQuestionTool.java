@@ -18,7 +18,6 @@ import lombok.Data;
 @Component
 public class AskUserQuestionTool extends AbstractTool<AskUserQuestionTool.Input, AskUserQuestionTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AskUserQuestionTool.class);
 
 
     public static final String TOOL_NAME = "AskUserQuestion";

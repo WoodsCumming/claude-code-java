@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class CleanupService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CleanupService.class);
 
 
     private static final long MAX_AGE_MS = 30L * 24 * 60 * 60 * 1000; // 30 days

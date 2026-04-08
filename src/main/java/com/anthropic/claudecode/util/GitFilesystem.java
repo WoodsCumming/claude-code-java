@@ -15,7 +15,6 @@ import java.util.concurrent.*;
 @Slf4j
 public class GitFilesystem {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GitFilesystem.class);
 
 
     private static final Map<String, Optional<String>> resolveGitDirCache = new ConcurrentHashMap<>();

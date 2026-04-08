@@ -42,7 +42,6 @@ import java.util.concurrent.Callable;
 )
 public class PermissionsCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PermissionsCommand.class);
 
 
     private final PermissionService permissionService;

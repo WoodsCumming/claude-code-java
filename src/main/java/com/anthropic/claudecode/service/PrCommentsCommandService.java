@@ -20,7 +20,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PrCommentsCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PrCommentsCommandService.class);
 
 
     // -------------------------------------------------------------------------

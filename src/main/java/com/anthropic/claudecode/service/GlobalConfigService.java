@@ -20,7 +20,6 @@ import java.nio.file.*;
 @Service
 public class GlobalConfigService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GlobalConfigService.class);
     private static final String CONFIG_FILE = ".claude.json";
 
     private final ObjectMapper objectMapper;

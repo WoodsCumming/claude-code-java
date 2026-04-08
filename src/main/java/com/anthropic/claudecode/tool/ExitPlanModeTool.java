@@ -15,7 +15,6 @@ import java.util.function.Consumer;
 @Component
 public class ExitPlanModeTool extends AbstractTool<ExitPlanModeTool.Input, ExitPlanModeTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExitPlanModeTool.class);
 
 
     public static final String TOOL_NAME = "ExitPlanMode";

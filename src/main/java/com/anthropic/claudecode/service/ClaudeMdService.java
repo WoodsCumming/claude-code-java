@@ -22,7 +22,6 @@ import lombok.Data;
 @Service
 public class ClaudeMdService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClaudeMdService.class);
 
     private static final String CLAUDE_MD = "CLAUDE.md";
     private static final String CLAUDE_LOCAL_MD = "CLAUDE.local.md";

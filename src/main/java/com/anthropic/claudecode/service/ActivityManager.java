@@ -16,7 +16,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @Component
 public class ActivityManager {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ActivityManager.class);
 
 
     private static final long USER_ACTIVITY_TIMEOUT_MS = 5000;

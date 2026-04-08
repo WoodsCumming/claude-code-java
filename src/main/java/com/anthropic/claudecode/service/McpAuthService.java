@@ -26,7 +26,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class McpAuthService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpAuthService.class);
 
 
     private static final long AUTH_REQUEST_TIMEOUT_MS = 30_000L;

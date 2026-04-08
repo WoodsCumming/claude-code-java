@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class FeatureGateService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(FeatureGateService.class);
 
 
     private final GrowthBookService growthBookService;

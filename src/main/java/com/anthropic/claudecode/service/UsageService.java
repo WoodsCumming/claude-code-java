@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class UsageService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(UsageService.class);
 
 
     private static final String USAGE_PATH = "/api/oauth/usage";

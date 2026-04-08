@@ -28,7 +28,6 @@ import java.util.function.BiFunction;
 @Service
 public class SessionIngressService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionIngressService.class);
 
 
     // -----------------------------------------------------------------------

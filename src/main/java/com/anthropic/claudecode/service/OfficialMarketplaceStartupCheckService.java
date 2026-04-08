@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class OfficialMarketplaceStartupCheckService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(OfficialMarketplaceStartupCheckService.class);
 
 
     private final GlobalConfigService globalConfigService;

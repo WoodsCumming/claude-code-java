@@ -28,7 +28,6 @@ import java.util.regex.Pattern;
 @RequiredArgsConstructor
 public class ClaudeApiSkill {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClaudeApiSkill.class);
 
 
     // -------------------------------------------------------------------------

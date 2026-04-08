@@ -1,4 +1,5 @@
 package com.anthropic.claudecode.service;
+import lombok.Builder;
 
 import com.anthropic.claudecode.model.Task;
 import lombok.Data;
@@ -19,7 +20,6 @@ import java.util.function.Function;
 @Service
 public class DreamTaskService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DreamTaskService.class);
 
 
     /** Keep only the N most recent assistant turns for live display. */
@@ -71,8 +71,11 @@ public class DreamTaskService {
     public static class DreamTaskState {
         private String id;
         /** Always "dream". */
+        @Builder.Default
         private String type = "dream";
+        @Builder.Default
         private Task.TaskStatus status = Task.TaskStatus.RUNNING;
+        @Builder.Default
         private DreamPhase phase = DreamPhase.STARTING;
         private int sessionsReviewing;
         /**
@@ -80,13 +83,16 @@ public class DreamTaskService {
          * Incomplete reflection — misses bash-mediated writes. Treat as
          * "at least these were touched", not "only these were touched".
          */
+        @Builder.Default
         private List<String> filesTouched = new ArrayList<>();
         /** Assistant text responses, tool uses collapsed. Prompt NOT included. */
+        @Builder.Default
         private List<DreamTurn> turns = new ArrayList<>();
         /** Stashed so kill can rewind the lock mtime (same path as fork-failure). */
         private long priorMtime;
         private long startTime;
         private Long endTime;
+        @Builder.Default
         private boolean notified = false;
         /** Abort signal — null when task is complete. */
         private transient CompletableFuture<Void> abortFuture;

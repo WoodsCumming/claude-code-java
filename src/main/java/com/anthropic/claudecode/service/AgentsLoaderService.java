@@ -28,7 +28,6 @@ import lombok.Data;
 @Service
 public class AgentsLoaderService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentsLoaderService.class);
 
 
     private static final String AGENTS_SUBDIR = "agents";

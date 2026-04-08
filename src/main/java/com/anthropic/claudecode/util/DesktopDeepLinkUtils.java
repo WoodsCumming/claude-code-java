@@ -24,7 +24,6 @@ import java.util.stream.Stream;
 @Slf4j
 public class DesktopDeepLinkUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DesktopDeepLinkUtils.class);
 
 
     private static final String MIN_DESKTOP_VERSION = "1.1.2396";

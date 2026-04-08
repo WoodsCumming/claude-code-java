@@ -40,7 +40,6 @@ import java.util.stream.Collectors;
 @Service
 public class ReleaseNotesService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ReleaseNotesService.class);
 
 
     // -------------------------------------------------------------------------

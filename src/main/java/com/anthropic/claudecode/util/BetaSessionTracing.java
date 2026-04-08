@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 public class BetaSessionTracing {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BetaSessionTracing.class);
 
 
     // Track hashes we've already logged this session

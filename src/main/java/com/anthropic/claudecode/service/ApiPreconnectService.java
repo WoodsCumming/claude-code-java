@@ -29,7 +29,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Service
 public class ApiPreconnectService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ApiPreconnectService.class);
 
 
     private static final AtomicBoolean fired = new AtomicBoolean(false);

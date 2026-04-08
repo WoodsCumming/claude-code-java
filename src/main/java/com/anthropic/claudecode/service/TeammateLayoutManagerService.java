@@ -18,7 +18,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 public class TeammateLayoutManagerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeammateLayoutManagerService.class);
 
 
     private final Map<String, String> teammateColorAssignments = new ConcurrentHashMap<>();

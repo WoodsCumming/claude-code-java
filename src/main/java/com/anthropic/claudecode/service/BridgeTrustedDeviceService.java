@@ -31,7 +31,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class BridgeTrustedDeviceService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeTrustedDeviceService.class);
 
 
     private static final String TRUSTED_DEVICE_GATE = "tengu_sessions_elevated_auth_enforcement";

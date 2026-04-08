@@ -26,7 +26,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class BridgeCreateSessionService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BridgeCreateSessionService.class);
 
     private static final String ANTHROPIC_BETA_HEADER = "ccr-byoc-2025-07-29";
     private static final int DEFAULT_TIMEOUT_MS = 10_000;

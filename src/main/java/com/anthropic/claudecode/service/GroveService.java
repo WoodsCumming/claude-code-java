@@ -30,7 +30,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class GroveService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(GroveService.class);
 
 
     /** Cache duration: 24 hours. */

@@ -16,7 +16,6 @@ import java.util.*;
 @Service
 public class PluginHintService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginHintService.class);
 
 
     private static final int MAX_SHOWN_PLUGINS = 100;

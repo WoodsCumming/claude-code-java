@@ -37,7 +37,6 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 public class TeamMemorySyncService {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeamMemorySyncService.class);
 
     /** Per-entry size cap — server default. Pre-filtering oversized entries saves bandwidth. */
     private static final int MAX_FILE_SIZE_BYTES = 250_000;

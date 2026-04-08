@@ -22,7 +22,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class AutoCompactService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AutoCompactService.class);
 
 
     // Reserve this many tokens for output during compaction.

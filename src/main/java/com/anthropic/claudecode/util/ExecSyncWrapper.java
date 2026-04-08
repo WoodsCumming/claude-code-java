@@ -17,7 +17,6 @@ import java.util.concurrent.TimeUnit;
 @Deprecated
 public class ExecSyncWrapper {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExecSyncWrapper.class);
 
 
     private static final long SLOW_OPERATION_THRESHOLD_MS = 500;

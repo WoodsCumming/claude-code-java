@@ -34,7 +34,6 @@ import java.util.List;
 @Service
 public class PluginOutputStylesService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginOutputStylesService.class);
 
 
     private final PluginLoaderService pluginLoaderService;

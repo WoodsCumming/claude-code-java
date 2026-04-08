@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Component
 public class SleepTool extends AbstractTool<SleepTool.Input, SleepTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SleepTool.class);
 
 
     public static final String TOOL_NAME = "Sleep";

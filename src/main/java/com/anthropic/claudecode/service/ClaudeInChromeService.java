@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class ClaudeInChromeService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClaudeInChromeService.class);
 
 
     public static final String CLAUDE_IN_CHROME_MCP_SERVER_NAME = "claude-in-chrome";

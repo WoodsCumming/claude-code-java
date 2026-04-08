@@ -19,7 +19,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class CopyCommandService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CopyCommandService.class);
 
 
     /** Command name. Translated from: name: 'copy' in index.ts */

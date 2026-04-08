@@ -11,7 +11,6 @@ import java.util.concurrent.*;
 @Slf4j
 public class CleanupRegistry {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CleanupRegistry.class);
 
 
     private static final Set<Runnable> cleanupFunctions = new LinkedHashSet<>();

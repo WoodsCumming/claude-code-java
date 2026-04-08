@@ -34,7 +34,6 @@ import java.util.function.BiConsumer;
 @Service
 public class SettingsChangeService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SettingsChangeService.class);
 
 
     // SettingSource constants (mirrors src/utils/settings/constants.ts)

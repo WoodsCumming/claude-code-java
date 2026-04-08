@@ -21,7 +21,6 @@ import java.util.regex.Pattern;
 @Service
 public class BashCommandHelpersService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BashCommandHelpersService.class);
 
 
     private static final Pattern CD_PATTERN = Pattern.compile("^cd\\s+");

@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 @Component
 public class CronListTool extends AbstractTool<CronListTool.Input, CronListTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronListTool.class);
 
 
     public static final String TOOL_NAME = "CronList";

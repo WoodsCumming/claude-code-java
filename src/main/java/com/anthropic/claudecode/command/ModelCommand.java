@@ -38,7 +38,6 @@ import java.util.concurrent.Callable;
 )
 public class ModelCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ModelCommand.class);
 
 
     /** Model name to set, or "default" to reset, or omit to show current. */

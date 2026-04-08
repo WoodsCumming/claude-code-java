@@ -27,7 +27,6 @@ import lombok.Data;
 @Service
 public class PluginService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginService.class);
 
 
     private static final String PLUGINS_DIR = "plugins";

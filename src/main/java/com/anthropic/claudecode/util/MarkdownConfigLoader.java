@@ -19,7 +19,6 @@ import java.util.*;
 @Component
 public class MarkdownConfigLoader {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MarkdownConfigLoader.class);
 
 
     public static final List<String> CLAUDE_CONFIG_DIRECTORIES = List.of(

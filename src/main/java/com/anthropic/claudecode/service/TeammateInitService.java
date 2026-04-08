@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class TeammateInitService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TeammateInitService.class);
 
 
     private final HookService hookService;

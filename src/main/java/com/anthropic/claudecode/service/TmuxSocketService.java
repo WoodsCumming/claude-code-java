@@ -28,7 +28,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class TmuxSocketService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TmuxSocketService.class);
 
 
     private static final String TMUX_COMMAND = "tmux";

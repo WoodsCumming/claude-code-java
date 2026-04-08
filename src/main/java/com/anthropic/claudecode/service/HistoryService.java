@@ -46,7 +46,6 @@ import java.util.stream.Stream;
 @Service
 public class HistoryService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HistoryService.class);
 
 
     private static final int MAX_HISTORY_ITEMS = 100;

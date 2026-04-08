@@ -20,7 +20,6 @@ import java.util.stream.IntStream;
 @Service
 public class InputPasteService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InputPasteService.class);
 
 
     /** Characters before we truncate the pasted content. */

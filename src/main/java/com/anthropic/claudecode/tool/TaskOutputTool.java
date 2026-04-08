@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Component
 public class TaskOutputTool extends AbstractTool<TaskOutputTool.Input, TaskOutputTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskOutputTool.class);
 
 
     public static final String TOOL_NAME = "TaskOutput";

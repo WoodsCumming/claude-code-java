@@ -24,7 +24,6 @@ import java.util.regex.Pattern;
 @Service
 public class MagicDocsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MagicDocsService.class);
 
 
     // Magic Doc header pattern: # MAGIC DOC: [title]

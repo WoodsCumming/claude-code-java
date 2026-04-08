@@ -19,7 +19,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class SinksInitService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SinksInitService.class);
 
 
     private final AnalyticsSinkService analyticsSinkService;

@@ -35,7 +35,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class StopHookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(StopHookService.class);
 
 
     private final HookService hookService;

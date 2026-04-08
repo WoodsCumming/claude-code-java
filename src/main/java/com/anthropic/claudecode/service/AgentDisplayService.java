@@ -16,7 +16,6 @@ import java.util.*;
 @Service
 public class AgentDisplayService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AgentDisplayService.class);
 
 
     /**

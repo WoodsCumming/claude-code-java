@@ -27,7 +27,6 @@ import java.util.regex.PatternSyntaxException;
 @Service
 public class SecretScannerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SecretScannerService.class);
 
     // Anthropic API key prefix assembled at runtime so the literal byte
     // sequence isn't present in the source bundle.

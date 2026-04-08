@@ -17,7 +17,6 @@ import java.util.function.Consumer;
 @Component
 public class AwsAuthStatusManager {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AwsAuthStatusManager.class);
 
 
     private static volatile AwsAuthStatusManager instance;

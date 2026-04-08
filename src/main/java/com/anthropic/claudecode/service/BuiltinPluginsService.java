@@ -26,7 +26,6 @@ import java.util.*;
 @Service
 public class BuiltinPluginsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BuiltinPluginsService.class);
 
 
     /** The marketplace identifier for built-in plugins. */

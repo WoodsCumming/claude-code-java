@@ -15,7 +15,6 @@ import java.util.Optional;
 @Service
 public class AdvisorService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AdvisorService.class);
 
 
     /**

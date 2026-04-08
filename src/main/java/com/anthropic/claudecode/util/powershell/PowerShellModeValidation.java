@@ -22,7 +22,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class PowerShellModeValidation {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PowerShellModeValidation.class);
 
 
     // -------------------------------------------------------------------------

@@ -22,7 +22,6 @@ import java.util.concurrent.*;
 @Service
 public class CronTasksService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronTasksService.class);
 
 
     private static final String TASKS_FILENAME = "scheduled_tasks.json";

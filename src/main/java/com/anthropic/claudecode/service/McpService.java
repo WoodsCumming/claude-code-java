@@ -25,7 +25,6 @@ import lombok.Data;
 @Service
 public class McpService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(McpService.class);
 
     // =========================================================================
     // Constants — translated from client.ts
@@ -76,6 +75,7 @@ public class McpService {
      * Thrown when an MCP tool returns isError:true.
      * Translated from McpToolCallError in client.ts
      */
+    @lombok.EqualsAndHashCode(callSuper = false)
     @lombok.Data
     @lombok.AllArgsConstructor
     @lombok.NoArgsConstructor(force = true)

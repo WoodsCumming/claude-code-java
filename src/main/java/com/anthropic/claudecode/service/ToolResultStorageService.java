@@ -23,7 +23,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class ToolResultStorageService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ToolResultStorageService.class);
 
 
     // =========================================================================

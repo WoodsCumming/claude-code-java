@@ -17,7 +17,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public class EditorUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(EditorUtils.class);
 
 
     // GUI editors that open in a separate window and can be spawned detached

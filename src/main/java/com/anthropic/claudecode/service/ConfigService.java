@@ -24,7 +24,6 @@ import java.util.*;
 @Service
 public class ConfigService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ConfigService.class);
 
 
     private static final String GLOBAL_CONFIG_FILENAME = ".claude.json";

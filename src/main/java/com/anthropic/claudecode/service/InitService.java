@@ -16,7 +16,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class InitService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(InitService.class);
 
 
     private final CaCertsConfigService caCertsConfigService;

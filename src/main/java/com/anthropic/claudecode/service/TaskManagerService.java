@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
 @Service
 public class TaskManagerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskManagerService.class);
 
 
     public static final String DEFAULT_TASKS_MODE_TASK_LIST_ID = "tasklist";

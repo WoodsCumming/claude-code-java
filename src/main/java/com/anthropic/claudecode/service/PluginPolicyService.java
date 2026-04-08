@@ -15,7 +15,6 @@ import java.util.Map;
 @Service
 public class PluginPolicyService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginPolicyService.class);
 
 
     private final SettingsService settingsService;

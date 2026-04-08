@@ -17,7 +17,6 @@ import java.util.concurrent.atomic.*;
 @Service
 public class CostTracker {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CostTracker.class);
 
 
     // Atomic accumulators for all session-level metrics

@@ -17,7 +17,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class PromptSubmitService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptSubmitService.class);
 
 
     private final QueryEngine queryEngine;

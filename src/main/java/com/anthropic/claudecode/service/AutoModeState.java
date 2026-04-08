@@ -28,7 +28,6 @@ import lombok.Data;
 @Component
 public class AutoModeState {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AutoModeState.class);
 
 
     // =========================================================================

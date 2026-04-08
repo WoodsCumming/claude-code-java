@@ -24,7 +24,6 @@ import java.util.function.Supplier;
 @Service
 public class AutoDreamService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AutoDreamService.class);
 
 
     /** Scan throttle — when time-gate passes but session-gate doesn't */

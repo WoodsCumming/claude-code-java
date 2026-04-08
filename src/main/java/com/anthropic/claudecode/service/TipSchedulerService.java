@@ -21,7 +21,6 @@ import java.util.concurrent.CompletableFuture;
 @Service
 public class TipSchedulerService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TipSchedulerService.class);
 
 
     private final TipHistoryService tipHistoryService;

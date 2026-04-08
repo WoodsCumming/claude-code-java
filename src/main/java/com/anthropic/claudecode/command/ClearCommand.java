@@ -20,7 +20,6 @@ import java.util.concurrent.Callable;
 )
 public class ClearCommand implements Callable<Integer> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ClearCommand.class);
 
 
     private final SessionService sessionService;

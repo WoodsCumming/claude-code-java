@@ -27,7 +27,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PostCompactCleanupService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PostCompactCleanupService.class);
 
 
     private final MicroCompactService microCompactService;

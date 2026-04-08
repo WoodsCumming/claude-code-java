@@ -13,7 +13,6 @@ import java.util.regex.*;
 @Slf4j
 public class ShellQuoteUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ShellQuoteUtils.class);
 
 
     /**

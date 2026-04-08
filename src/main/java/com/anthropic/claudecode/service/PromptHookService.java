@@ -20,7 +20,6 @@ import java.util.concurrent.*;
 @Service
 public class PromptHookService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PromptHookService.class);
 
 
     private static final long DEFAULT_HOOK_TIMEOUT_MS = 30_000L;

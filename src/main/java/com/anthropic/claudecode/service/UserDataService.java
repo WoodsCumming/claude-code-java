@@ -21,7 +21,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Service
 public class UserDataService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(UserDataService.class);
 
 
     // =========================================================================

@@ -36,7 +36,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class ErrorLogSinkService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ErrorLogSinkService.class);
 
 
     private static final DateTimeFormatter DATE_FORMATTER =

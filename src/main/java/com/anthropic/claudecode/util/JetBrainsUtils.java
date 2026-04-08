@@ -19,7 +19,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class JetBrainsUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(JetBrainsUtils.class);
 
 
     private static final String PLUGIN_PREFIX = "claude-code-jetbrains-plugin";

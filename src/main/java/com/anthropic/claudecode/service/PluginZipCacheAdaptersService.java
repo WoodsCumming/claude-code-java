@@ -20,7 +20,6 @@ import java.util.zip.*;
 @Service
 public class PluginZipCacheAdaptersService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PluginZipCacheAdaptersService.class);
 
 
     private final ObjectMapper objectMapper;

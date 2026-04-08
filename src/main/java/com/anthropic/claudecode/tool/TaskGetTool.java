@@ -15,7 +15,6 @@ import java.util.function.Consumer;
 @Component
 public class TaskGetTool extends AbstractTool<TaskGetTool.Input, TaskGetTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TaskGetTool.class);
 
 
     public static final String TOOL_NAME = "TaskGet";

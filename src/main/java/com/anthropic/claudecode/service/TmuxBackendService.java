@@ -33,7 +33,6 @@ import java.util.stream.Collectors;
 @Service
 public class TmuxBackendService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(TmuxBackendService.class);
 
 
     public static final String TMUX_COMMAND = "tmux";

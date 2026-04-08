@@ -17,7 +17,6 @@ import javax.net.ssl.SSLException;
 @Service
 public class ApiErrorUtilsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ApiErrorUtilsService.class);
 
 
     // SSL/TLS error codes from OpenSSL (mirrored from errorUtils.ts)

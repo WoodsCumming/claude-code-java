@@ -19,7 +19,9 @@ import java.util.UUID;
 
 public class SystemInitMessage {
 
+    @Builder.Default
     private String type = "system";
+    @Builder.Default
     private String subtype = "init";
     private String cwd;
     private String sessionId;

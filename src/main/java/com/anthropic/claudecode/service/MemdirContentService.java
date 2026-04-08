@@ -16,7 +16,6 @@ import java.util.*;
 @Service
 public class MemdirContentService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MemdirContentService.class);
 
 
     public static final String ENTRYPOINT_NAME = "MEMORY.md";

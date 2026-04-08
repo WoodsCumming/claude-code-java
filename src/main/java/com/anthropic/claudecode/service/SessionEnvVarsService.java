@@ -19,7 +19,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Service
 public class SessionEnvVarsService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionEnvVarsService.class);
 
 
     private final Map<String, String> sessionEnvVars = new ConcurrentHashMap<>();

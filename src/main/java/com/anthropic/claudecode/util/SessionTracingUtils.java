@@ -39,7 +39,6 @@ import java.util.regex.Pattern;
 @Slf4j
 public final class SessionTracingUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SessionTracingUtils.class);
 
 
     // =========================================================================

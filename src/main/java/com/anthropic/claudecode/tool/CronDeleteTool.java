@@ -15,7 +15,6 @@ import java.util.function.Consumer;
 @Component
 public class CronDeleteTool extends AbstractTool<CronDeleteTool.Input, CronDeleteTool.Output> {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CronDeleteTool.class);
 
 
     public static final String TOOL_NAME = "CronDelete";

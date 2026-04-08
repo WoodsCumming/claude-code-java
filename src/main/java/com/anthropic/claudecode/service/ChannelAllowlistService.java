@@ -25,7 +25,6 @@ import java.util.List;
 @Service
 public class ChannelAllowlistService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ChannelAllowlistService.class);
 
 
     /** An entry in the channel allowlist keyed on marketplace + plugin. */

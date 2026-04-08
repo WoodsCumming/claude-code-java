@@ -19,7 +19,6 @@ import java.util.function.Consumer;
 @Service
 public class SettingsChangeDetectorService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(SettingsChangeDetectorService.class);
 
 
     private final SettingsService settingsService;

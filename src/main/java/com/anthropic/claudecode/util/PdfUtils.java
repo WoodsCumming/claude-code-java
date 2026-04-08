@@ -23,7 +23,6 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class PdfUtils {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(PdfUtils.class);
 
 
     // PDF size limits (from constants/apiLimits.ts)

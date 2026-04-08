@@ -30,7 +30,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Service
 public class BriefToolUploadService {
 
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BriefToolUploadService.class);
 
 
     // Matches the private_api backend limit: 30 MB
