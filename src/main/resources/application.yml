@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: claude-code
+  main:
+    web-application-type: none
+    banner-mode: off
+    allow-circular-references: true
+
+claude:
+  version: "2.1.88"
+  model: "claude-opus-4-6"
+  small-fast-model: "claude-haiku-4-5-20251001"
+  api-timeout-ms: 600000
+  base-url: "https://api.anthropic.com"
+  verbose: false
+  auto-compact-enabled: true
+  show-turn-duration: false
+  permission-mode: "default"
+  non-interactive-session: false
+
+logging:
+  level:
+    root: WARN
+    com.anthropic.claudecode: INFO
+  pattern:
+    console: "%d{HH:mm:ss} [%level] %logger{36} - %msg%n"
