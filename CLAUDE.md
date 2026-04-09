@@ -92,6 +92,20 @@ All tools implement `Tool<Input, Output>` and are `@Component`-annotated. They a
 
 **Duplicate `log` fields**: Classes annotated `@Slf4j` must not also declare `private static final Logger log = ...` manually — Lombok generates it.
 
+## gstack
+
+For all web browsing tasks, use the gstack `/browse` skill. **Never use `mcp__claude-in-chrome__*` tools.**
+
+Available gstack skills:
+- `/plan-ceo-review` — CEO-level review of a plan
+- `/plan-eng-review` — Engineering review of a plan
+- `/review` — Code review
+- `/ship` — Ship a feature
+- `/browse` — Headless browser for web browsing, QA testing, and site interaction
+- `/qa` — QA testing
+- `/setup-browser-cookies` — Set up browser cookies for authenticated sessions
+- `/retro` — Retrospective
+
 ## Translating from TypeScript Source
 
 When adding or fixing a feature, the TypeScript source is at `~/code/mt/claude-code-source-code/src/`. Key mappings:
